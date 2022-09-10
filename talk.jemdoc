@@ -1,0 +1,56 @@
+# jemdoc: menu{MENU}{talk.html}
+= Talks
+
+- Studies Integrating Optimization and Sampling under Nonsmoothness \n
+Peking University, Virtual, November 2021 \n
+Rice University, Houston, TX, December 2021 \n
+Tsinghua University, Virtual, December 2021 \n
+City University of Hong Kong, Virtual, December 2021 \n
+University of Oxford, Virtual, December 2021 \n
+The Chinese University of Hong Kong, Shenzhen, Virtual, December 2021 \n
+Rutgers University, Virtual, January 2022 \n
+North Carolina State University, Raleigh, NC, January 2022 \n
+EPFL, Virtual, January 2022 \n
+
+- Advances in Nonconvex Optimization, Nonsmooth Optimization, and High-dimensional Sampling \n
+Honk Kong University of Science and Technology, Virtual, November 2021 \n
+National University of Singapore, Virtual, November 2021
+
+- A unified analysis of a class of proximal bundle methods for solving hybrid convex composite optimization problems [https://www.dropbox.com/s/lpy9ce1a32a6sf6/HCPB.mp4?dl=0 \[video\]] [./talk/HCPB.pdf \[slides\]] \n
+East Coast Optimization Meeting, Virtual, March 2022 \n
+INFORMS Annual Meeting, Anaheim, CA, October 2021
+
+- A Proximal Algorithm for Sampling from Non-smooth Potentials [./talk/Georgia_Statistics_Day_2021.pdf \[poster\]]\n
+Poster Presentation, Georgia Statistics Day, Atlanta, GA, October 2021
+
+- Average Curvature FISTA for Nonconvex Smooth Composite Optimization Problems [./talk/AC-FISTA.pdf \[slides\]] \n
+Modeling and Optimization: Theory and Applications (MOPTA), Bethlehem, PA, August 2021
+
+- Early Termination of Convex QP Solvers in Mixed-Integer Model Predictive Control for Real-Time Decision Making [https://youtu.be/3g47elWiWG0 \[video\]] [./talk/ACC2021_Jiaming_v3.pptx \[slides\]] [./talk/MIP_2021.pdf \[poster\]] \n
+Oral Presentation, American Control Conference (ACC), Virtual, May 2021 \n
+Poster Presentation, Mixed Integer Programming (MIP), Virtual, May 2021 \n
+Poster Presentation, Integer Programming and Combinotorial Optimization (IPCO), Virtual, May 2021
+
+- A FISTA-type average curvature accelerated composite gradient method for nonconvex optimization problems [./talk/OPT2020.png \[poster\]]\n
+12th OPT Workshop on Optimization for Machine Learning (OPT2020), Virtual, December 2020
+
+- A Proximal Bundle Variant with Optimal Iteration-complexity for a Large Range of Prox Stepsizes [./talk/bundle-slides.pdf \[slides\]]\n
+Department of Applied Mathematics, FGV, Virtual, December 2021 \n
+SIAM Conference on Optimization (OP21), Virtual, July 2021 \n
+INFORMS Annual Meeting, Virtual, November 2020 \n
+ISyE PhD Student Seminar in Georgia Tech, Virtual, October 2020 \n
+Optimization Interest Group Meeting, Mitsubishi Electric Research Laboratories, Cambridge, MA, July 2020
+
+- An Average Curvature Accelerated Composite Gradient Method for Nonconvex Smooth Composite Optimization Problems [./talk/Average-Curvature.pdf \[slides\]]\n
+Alice and John Jarvis Ph.D. Student Paper Competition, Georgia Tech, September 2021 \n
+INFORMS Annual Meeting, Seattle, WA, October 2019 \n
+DOS Seminar in Georgia Tech, Atlanta, GA, October 2019
+
+- A Doubly Accelerated Inexact Proximal Point Method for Nonconvex Composite Optimization Problems [./talk/Doubly-Accelerated.pdf \[slides\]]\n
+INFORMS Annual Meeting, Seattle, WA, October 2019 \n
+Machine Learning Theory Reading Group in Georgia Tech, Atlanta, GA,  April 2019 \n
+ISyE PhD Student Seminar in Georgia Tech, Atlanta, GA, November 2018 \n
+DOS Seminar in Georgia Tech, Atlanta, GA, November 2018
+
+- Ship Roll Behaviour in Large Amplitude Beam Waves [./talk/OMAE2015-41802_Lin.pdf \[slides\]]\n
+International Conference on Ocean, Offshore and Arctic Engineering, St. Johns, NL, Canada, June 2015 (OMAE2015)
