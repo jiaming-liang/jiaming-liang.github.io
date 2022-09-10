@@ -1,6 +1,9 @@
 # jemdoc: menu{MENU}{talk.html}
 = Talks
 
+- A Single Cut Proximal Bundle Method for Stochastic Convex Composite Optimization [./talk/Stochastic_Bundle_ICCOPT.pdf \[slides\]] \n
+International Conference on Continuous Optimization, Bethlehem, PA, July 2022
+
 - Studies Integrating Optimization and Sampling under Nonsmoothness \n
 Peking University, Virtual, November 2021 \n
 Rice University, Houston, TX, December 2021 \n
