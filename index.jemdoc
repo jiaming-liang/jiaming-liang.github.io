@@ -1,0 +1,96 @@
+# jemdoc: menu{MENU}{index.html}
+= Jiaming Liang \ (梁家銘) 
+
+~~~
+{}{img_left}{JiamingLiang_Web.jpg}{alt text}{244.8px}{326.4px}{}
+Jiaming Liang  [https://scholar.google.com/citations?user=fUBCj-0AAAAJ&hl=en \[Google Scholar\]] \n 
+#[./vitae/liang.pdf \[Curriculum Vitae\]] \n
+Postdoctoral Associate \n
+#\/ Tenure-track Assistant Professor (on leave)\n
+#Ph.D. in Operations Research \n 
+#Ph.D. Student in Operations Research \n 
+Department of Computer Science \n
+#\/ School of Data Science\n
+Yale University \n
+#\/ The Chinese University of Hong Kong, Shenzhen\n
+#H. Milton Stewart School of Industrial and Systems Engineering\n
+#Georgia Institute of Technology\n
+
+#Office: Main 314 \n
+Email: firstname DOT lastname AT yale DOT edu \n
+#\/ lastnamefirstname AT cuhk DOT edu DOT cn\n
+#[https://www.linkedin.com/in/jiamingliang/ Linkedin]
+#[https://github.com/chao92 Github], [http://chaojiang.me/ Blog]
+#[https://www.linkedin.com/in/jiamingliang/ \[Linkedin\]] 
+#[./vitae/liang.pdf \[Curriculum Vitae\]]
+
+#*I am currently on the 2021-2022 academic job market and looking for faculty position openings in OR\/IE\/Applied Math\/Data Science and related fields.*
+
+~~~
+
+#~~~
+#I will be presenting the following project at INFORMS Annual Meeting 2021:
+#/A Proximal Bundle Type Method For Smooth And Nonsmooth Convex Optimization And Stochastic Programming/
+#- In Person, Sunday, October 24, 11:00 am - 12:30 pm PDT, CC-Room 201 D, Session SC09 Applied Probability and Machine Learning
+#- Virtual, Wednesday, October 27, 11:00 am - 12:30 pm PDT, Virtual Room 19, Session VWC19 Advances in stochastic convex and nonconvex optimization algorithms [https://zoom.us/j/98112481729?pwd=cEg2RzMrbkxGSDkxZVdBU0NrMmlBUT09 \[Zoom\]] [https://www.dropbox.com/s/lpy9ce1a32a6sf6/HCPB.mp4?dl=0 \[Video\]]
+#~~~
+
+																
+
+== Short Bio 
+Jiaming is a postdoctoral researcher at Yale CS department, under the supervision of [http://www.cs.yale.edu/homes/wibisono/ Andre Wibisono].
+#He is also a tenure-track assistant professor (on leave) in the [https://sds.cuhk.edu.cn/en School of Data Science] at The Chinese University of Hong Kong, Shenzhen. 
+Previously, he obtained Ph.D. in Operations Research at Georgia Tech, advised by [https://www2.isye.gatech.edu/~monteiro/ Renato Monteiro]. 
+#He holds a master's degree in computational science and engineering. 
+#As an undergrad, he studied ocean engineering and applied math in Shanghai Jiao Tong University.
+# where he worked on applications of the [https://en.wikipedia.org/wiki/Homotopy_analysis_method homotopy analysis method] with [http://naoce.sjtu.edu.cn/en/teachershow.aspx?info_lb=20&info_id=93&flag=2 Prof. Zhiliang Lin].
+== Research Interests 
+His primary research goal is to design, analyze and implement fast algorithms for solving a general class of problems in data science. His research interests broadly include topics in optimization and sampling algorithms, such as
+- Convex and Nonconvex Optimization
+- Nonsmooth Optimization
+- Stochastic Optimization
+- High-dimensional Sampling Algorithms
+- Foundation of Data Science
+== News
+- A new paper [https://arxiv.org/abs/2207.09024 "A single cut proximal bundle method for stochastic convex composite optimization"].
+- The paper [https://arxiv.org/abs/2110.04597 "A Proximal Algorithm for Sampling from Non-smooth Potentials"] has been accepted by Winter Simulation Conference 2022.
+- A new paper [https://arxiv.org/abs/2205.10188 "A Proximal Algorithm for Sampling from Non-convex Potentials"].
+- A new paper [https://arxiv.org/abs/2202.13975 "A Proximal Algorithm for Sampling"].
+- The paper [https://epubs.siam.org/doi/abs/10.1137/20M1327513 "A Proximal Bundle Variant with Optimal Iteration-Complexity for a Large Range of Prox Stepsizes"] has been published in SIAM Journal on Optimization.
+#- A new paper [https://arxiv.org/abs/2110.04597 "A Proximal Algorithm for Sampling from Non-smooth Potentials"].
+- A new paper [https://arxiv.org/abs/2110.01084 "A unified analysis of a class of proximal bundle methods for solving hybrid convex composite optimization problems"].
+#- The paper [https://epubs.siam.org/doi/abs/10.1137/19M1294277 "An Average Curvature Accelerated Composite Gradient Method for Nonconvex Smooth Composite Optimization Problems"] has been selected as honorable metion for the inaugural Alice and John Jarvis Ph.D. Student Paper Competition, Georgia Tech ISyE.
+#- The paper [https://arxiv.org/abs/2003.11457 "A proximal bundle variant with optimal iteration-complexity for a large range of prox stepsizes"] has been accepted for publication in SIAM Journal on Optimization.
+- A new paper [https://arxiv.org/abs/2105.06436 "Average Curvature FISTA for Nonconvex Smooth Composite Optimization Problems"].
+#- The paper [https://link.springer.com/epdf/10.1007/s10589-021-00280-9?sharing_token=jWhqGVdrWlieIFMNCeRxeve4RwlQNchNByi7wbcMAY6byWFSR_E_gR4JKKhLUbarJcfPsBBjOAUuT04_zMD3EMXmicUTl7Ulv0Tl8wW1IWGakQveee-nfa_B9Ebd-bijTXafyjqkY3maeUwqrLtnCwehigO6ErbOYzlui3koIgc%3D "A FISTA-type accelerated gradient algorithm for solving smooth nonconvex composite optimization problems"] has been published in Computational Optimization and Applications.
+#- [https://www.isye.gatech.edu/student-awards Shabbir Ahmed Fellowship] for excellence in research (Optimization), Georgia Tech ISyE. This fellowship is awarded annually to recognize outstanding research activities by Ph.D. students in the H. Milton Stewart School of Industrial and Systems Engineering (ISyE).
+#- The paper [https://epubs.siam.org/doi/abs/10.1137/19M1294277 "An Average Curvature Accelerated Composite Gradient Method for Nonconvex Smooth Composite Optimization Problems"] has been published in SIAM Journal on Optimization.
+#- A new paper [https://ieeexplore.ieee.org/document/9261620 "Early Termination of Convex QP Solvers in Mixed-Integer Programming for Real-Time Decision Making"] has been published in IEEE Control Systems Letters and 2021 American Control Conference (ACC).
+#- Workshop submission [https://opt-ml.org/papers/2020/paper_79.pdf "A FISTA-type average curvature accelerated composite gradient method for nonconvex optimization problems"] has been accepted by [https://opt-ml.org/index.html the 12th OPT Workshop on Optimization for Machine Learning (OPT2020)].
+#- [http://ideas.gatech.edu/ideas-triad-research-scholarships-phd-students-and-postdocs IDEaS-TRIAD Research Scholarship], Georgia Tech. The Institute for Data Engineering and Science (IDEaS) and Transdisciplinary Research Institute for Advancing Data Science (TRIAD) provide scholarships to support Ph.D. students or post-doctoral researchers in high-impact cross-disciplinary data science related areas.
+#- A new paper [https://arxiv.org/abs/2003.11457 "A proximal bundle variant with optimal iteration-complexity for a large range of prox stepsizes"].
+#- [http://arc.gatech.edu/hg/item/630228 ARC-TRIAD Fellowship], Georgia Tech. Algorithms & Randomness Center supports competitive research projects put forth by graduate students. 
+#== Education 
+#- Ph.D. Candidate, Operations Research, Georgia Tech, Atlanta, GA, 2017 - Present
+#- M.S., Computational Science and Engineering, Georgia Tech, Atlanta, GA, 2015 - 2017
+#- B.S., Naval Architecture and Ocean Engineering, Shanghai Jiao Tong University, Shanghai, China, 2011 - 2015
+#- B.S., Mathematics and Applied Mathematics, Shanghai Jiao Tong University, Shanghai, China, 2013 - 2015
+== Awards
+- [https://www.isye.gatech.edu/student-awards Alice and John Jarvis Ph.D. Student Paper Competition Honorable Mention], Georgia Tech ISyE, 2021.
+- Simons Institute Travel Fund for attending the workshop [https://simons.berkeley.edu/workshops/gmos2021-1 Sampling Algorithms and Geometries on Probability Distributions].
+- [https://www.isye.gatech.edu/student-awards Shabbir Ahmed Fellowship] for excellence in research (Optimization), Georgia Tech ISyE, 2021.
+#This fellowship is awarded annually to recognize outstanding research activities by Ph.D. students in the H. Milton Stewart School of Industrial and Systems Engineering (ISyE).
+#- SIAM Student Travel Award, 2021.
+#- American Control Conference (ACC) Student Registration Grant, 2021.
+- [http://ideas.gatech.edu/ideas-triad-research-scholarships-phd-students-and-postdocs IDEaS-TRIAD Research Scholarship], Georgia Tech, 2021.
+- [http://arc.gatech.edu/hg/item/630228 ARC-TRIAD Fellowship], Georgia Tech, 2020.
+#== Professional Experience 
+#- Research Intern in Mitsubishi Electric Research Laboratories, Cambridge, MA, Summer 2020
+#- Summer Research Associate in NEC Labs America, Princeton, NJ, Summer 2017
+#- Software Engineer Intern in Schlumberger, Houston, TX, Summer 2016
+== Service
+- Reviewer for MAPR, SIOPT, JOGO, OPTL, IEEE TSP, IEEE L-CSS, OPT2021, AISTATS
+#- Reviewer for IEEE Control Systems Letters (L-CSS)
+#- Reviewer for the OPT2021 workshop
+- Session Chair in SIAM OP21,  SIAM MDS22, INFORMS Annual Meeting 2022
+- Organizer of Optimization Interest Group Meeting, Summer 2020, Mitsubishi Electric Research Laboratories (MERL))
