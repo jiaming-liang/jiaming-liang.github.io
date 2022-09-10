@@ -1,0 +1,17 @@
+cd 'Dropbox (GaTech)/Personal/GeorgiaTech/Fall 2018/jemdoc/jemdoc-tutorial-master/'
+
+cd 'Dropbox (Personal)/jliang76.github.io/'
+
+python2.7 jemdoc.py publication.jemdoc
+
+python2.7 jemdoc.py index.jemdoc
+
+python2.7 jemdoc.py teaching.jemdoc
+
+python2.7 jemdoc.py course.jemdoc
+
+cd 'Dropbox (Personal)/jliang76.github.io/jemdoc_mathjax-master/example'
+
+sudo cp jemdoc /Dropbox (Personal)/jliang76.github.io/jemdoc_mathjax-master/jemdoc
+
+chmod 755 /usr/local/bin/jemdoc
