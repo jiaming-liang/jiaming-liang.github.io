@@ -2,6 +2,8 @@ cd 'Dropbox (GaTech)/Personal/GeorgiaTech/Fall 2018/jemdoc/jemdoc-tutorial-maste
 
 cd 'Dropbox (Personal)/jliang76.github.io/'
 
+cd '/Users/Jamie/Library/CloudStorage/Box-Box/Personal/jiaming-liang.github.io'
+
 python2.7 jemdoc.py publication.jemdoc
 
 python2.7 jemdoc.py index.jemdoc
