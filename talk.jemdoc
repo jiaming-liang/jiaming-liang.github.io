@@ -1,6 +1,9 @@
 # jemdoc: menu{MENU}{talk.html}
 = Talks
 
+- A Proximal Algorithm for Sampling from Nonsmooth Potentials [./talk/Nonsmooth_Sampling.pdf \[slides\]] \n
+Winter Simulation Conference, Virtual, December 2022
+
 - A Proximal Sampling Algorithm [./talk/Proximal_Sampling.pdf \[slides\]] \n
 Department of Management Science and Information Systems, Rutgers University, Virtual, November 2022 \n
 SIAM Conference on Mathematics of Data Science, San Diego, CA, September 2022
