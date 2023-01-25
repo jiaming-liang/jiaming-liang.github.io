@@ -9,8 +9,6 @@
 --- Jiaming Liang and Yongxin Chen, arXiv:2205.10188, 2022
 -- A Proximal Algorithm for Sampling [https://arxiv.org/pdf/2202.13975.pdf \[pdf\]] \n
 --- Jiaming Liang and Yongxin Chen, arXiv:2202.13975, 2022
--- A Proximal Algorithm for Sampling from Non-smooth Potentials [https://arxiv.org/pdf/2110.04597.pdf \[pdf\]] \n
---- Jiaming Liang and Yongxin Chen, arXiv:2110.04597, 2021
 -- A unified analysis of a class of proximal bundle methods for solving hybrid convex composite optimization problems [https://arxiv.org/pdf/2110.01084.pdf \[pdf\]] \n
 --- Jiaming Liang and Renato D.C. Monteiro, arXiv:2110.01084, 2021
 -- Average Curvature FISTA for Nonconvex Smooth Composite Optimization Problems [https://arxiv.org/pdf/2105.06436.pdf \[pdf\]] \n
@@ -37,6 +35,9 @@
 --- *Physica Scripta*, 91(1):015201, 2015
 
 - Conference Papers
+-- A Proximal Algorithm for Sampling from Non-smooth Potentials [https://ieeexplore.ieee.org/document/10015293 \[pdf\]] \n
+--- Jiaming Liang and Yongxin Chen
+--- *2022 Winter Simulation Conference (WSC)*
 -- Early Termination of Convex QP Solvers in Mixed-Integer Programming for Real-Time Decision Making [https://ieeexplore.ieee.org/document/9482831 \[pdf\]] \n
 --- Jiaming Liang, Stefano Di Cairano and Rien Quirynen
 --- *2021 American Control Conference (ACC)*
