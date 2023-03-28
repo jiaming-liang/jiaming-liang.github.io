@@ -1,6 +1,9 @@
 # jemdoc: menu{MENU}{talk.html}
 = Talks
 
+- A Universal Proximal Framework for Optimization and Sampling [./talk/Universal_Proximal_Framework.pdf \[slides\]] \n
+Goergen Institute for Data Science, University of Rochester, Rochester, NY, February 2023
+
 - A Proximal Algorithm for Sampling from Nonsmooth Potentials [./talk/Nonsmooth_Sampling.pdf \[slides\]] \n
 Winter Simulation Conference, Virtual, December 2022
 
