@@ -3,10 +3,13 @@
 #[https://scholar.google.com/citations?user=tZs2WzcAAAAJ&hl=en \[Google Scholar\]]
 
 - Preprints
+-- Proximal bundle methods for hybrid weakly convex composite optimization problems
+ [https://arxiv.org/pdf/2303.14896.pdf \[pdf\]] \n
+--- Jiaming Liang, Renato D.C. Monteiro and Honghao Zhang, arXiv:2303.14896, 2023
 -- A single cut proximal bundle method for stochastic convex composite optimization [https://arxiv.org/pdf/2207.09024.pdf \[pdf\]] \n
 --- Jiaming Liang, Vincent Guigues and Renato D.C. Monteiro, arXiv:2207.09024, 2022
--- A Proximal Algorithm for Sampling from Non-convex Potentials [https://arxiv.org/pdf/2205.10188.pdf \[pdf\]] \n
---- Jiaming Liang and Yongxin Chen, arXiv:2205.10188, 2022
+#-- A Proximal Algorithm for Sampling from Non-convex Potentials [https://arxiv.org/pdf/2205.10188.pdf \[pdf\]] \n
+#--- Jiaming Liang and Yongxin Chen, arXiv:2205.10188, 2022
 -- A Proximal Algorithm for Sampling [https://arxiv.org/pdf/2202.13975.pdf \[pdf\]] \n
 --- Jiaming Liang and Yongxin Chen, arXiv:2202.13975, 2022
 -- A unified analysis of a class of proximal bundle methods for solving hybrid convex composite optimization problems [https://arxiv.org/pdf/2110.01084.pdf \[pdf\]] \n
