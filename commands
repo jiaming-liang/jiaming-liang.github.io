@@ -17,3 +17,7 @@ cd 'Dropbox (Personal)/jliang76.github.io/jemdoc_mathjax-master/example'
 sudo cp jemdoc /Dropbox (Personal)/jliang76.github.io/jemdoc_mathjax-master/jemdoc
 
 chmod 755 /usr/local/bin/jemdoc
+
+cd '/Users/Yilin/Box/Personal/jiaming-liang.github.io'
+
+cd '/Users/Yilin/Library/CloudStorage/Box-Box/Personal/jiaming-liang.github.io'
