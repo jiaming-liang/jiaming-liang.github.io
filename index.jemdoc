@@ -54,7 +54,8 @@ His primary research goal is to design, analyze and implement fast algorithms fo
 - High-dimensional Sampling Algorithms
 - Foundation of Data Science
 == News
-- The paper [https://arxiv.org/abs/2105.06436 "Average Curvature FISTA for Nonconvex Smooth Composite Optimization Problems"] has been accepted by Computational Optimization and Applications.
+- The paper "On a Class of Gibbs Sampling over Networks" has been accepted by Conference on Learning Theory (COLT) 2023.
+- The paper [https://link.springer.com/article/10.1007/s10589-023-00490-3 "Average Curvature FISTA for Nonconvex Smooth Composite Optimization Problems"] has been published in Computational Optimization and Applications.
 - A new paper [https://arxiv.org/abs/2303.14896 "Proximal bundle methods for hybrid weakly convex composite optimization problems"].
 - The paper [https://arxiv.org/abs/2110.01084 "A unified analysis of a class of proximal bundle methods for solving hybrid convex composite optimization problems"] has been accepted by Mathematics of Operations Research.
 - The paper [https://ieeexplore.ieee.org/document/10015293 "A Proximal Algorithm for Sampling from Non-smooth Potentials"] has been published in 2022 Winter Simulation Conference (WSC).
