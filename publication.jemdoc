@@ -12,14 +12,16 @@
 #--- Jiaming Liang and Yongxin Chen, arXiv:2205.10188, 2022
 -- A Proximal Algorithm for Sampling [https://arxiv.org/pdf/2202.13975.pdf \[pdf\]] \n
 --- Jiaming Liang and Yongxin Chen, arXiv:2202.13975, 2022
--- A unified analysis of a class of proximal bundle methods for solving hybrid convex composite optimization problems [https://arxiv.org/pdf/2110.01084.pdf \[pdf\]] \n
---- Jiaming Liang and Renato D.C. Monteiro, arXiv:2110.01084, 2021
--- Average Curvature FISTA for Nonconvex Smooth Composite Optimization Problems [https://arxiv.org/pdf/2105.06436.pdf \[pdf\]] \n
---- Jiaming Liang and Renato D.C. Monteiro, arXiv:2105.06436, 2021
 -- A Doubly Accelerated Inexact Proximal Point Method for Nonconvex Composite Optimization Problems [https://arxiv.org/pdf/1811.11378.pdf \[pdf\]] \n
 --- Jiaming Liang and Renato D.C. Monteiro, arXiv:1811.11378, 2018
 
 - Journal Papers
+-- A unified analysis of a class of proximal bundle methods for solving hybrid convex composite optimization problems [https://arxiv.org/pdf/2110.01084.pdf \[pdf\]] \n
+--- Jiaming Liang and Renato D.C. Monteiro
+--- *Mathematics of Operations Research*, 2023
+-- Average Curvature FISTA for Nonconvex Smooth Composite Optimization Problems [https://link.springer.com/article/10.1007/s10589-023-00490-3 \[pdf\]] \n
+--- Jiaming Liang and Renato D.C. Monteiro
+--- *Computational Optimization and Applications*, 2023
 -- A Proximal Bundle Variant with Optimal Iteration-Complexity for a Large Range of Prox Stepsizes [https://epubs.siam.org/doi/10.1137/20M1327513 \[pdf\]] \n
 --- Jiaming Liang and Renato D.C. Monteiro
 --- *SIAM Journal on Optimization*, 31(4):2955–2986, 2021
@@ -38,6 +40,9 @@
 --- *Physica Scripta*, 91(1):015201, 2015
 
 - Conference Papers
+-- On a Class of Gibbs Sampling over Networks \n
+--- Bo Yuan, Jiaojiao Fan, Jiaming Liang, Andre Wibisono, and Yongxin Chen
+--- *2023 Conference on Learning Theory (COLT) *
 -- A Proximal Algorithm for Sampling from Non-smooth Potentials [https://ieeexplore.ieee.org/document/10015293 \[pdf\]] \n
 --- Jiaming Liang and Yongxin Chen
 --- *2022 Winter Simulation Conference (WSC)*
