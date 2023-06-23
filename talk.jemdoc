@@ -1,6 +1,9 @@
 # jemdoc: menu{MENU}{talk.html}
 = Talks
 
+- Variance Reduction and Low Sample Complexity in Stochastic Optimization via Proximal Point Methods \n
+SIAM Conference on Optimization, Seattle, WA, May-June 2023
+
 - A Universal Proximal Framework for Optimization and Sampling [./talk/Universal_Proximal_Framework.pdf \[slides\]] \n
 Goergen Institute for Data Science, University of Rochester, Rochester, NY, February 2023
 
