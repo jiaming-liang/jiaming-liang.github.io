@@ -1,0 +1,52 @@
+# jemdoc: menu{MENU}{teaching.html}
+= Optimization for Machine Learning, Fall 2023
+
+This course primarily focuses on algorithms for large-scale optimization problems arising in machine learning and data science applications. The first part will cover first-order methods including gradient and subgradient methods, mirror descent, proximal gradient method, accelerated gradient method, Frank-Wolfe method, and inexact proximal point methods. The second part will introduce algorithms for nonconvex optimization, stochastic optimization, distributed optimization, manifold optimization, reinforcement learning, and those beyond first-order.
+
+== Course Information
+
+- Instructor: [https://jiaming-liang.github.io/ Jiaming Liang]
+
+- Teaching assistant: Lin Zang
+
+- Meeting information: 9:40-10:55 am, Tuesday/Thursday, Hylan Building 203
+
+- Office hours: 4:00-5:oo pm, Wednesday, Wegmans Hall 2403 (Jiaming Liang), 4:00-5:oo pm, Friday Wegmans Hall 1219 (Lin Zang)
+
+- Textbooks
+-- Amir Beck. /First-order methods in optimization/. SIAM, 2017.
+-- Yurii Nesterov. /Lectures on convex optimization/. Springer, 2018.
+
+- Syllabus [./teaching/OPTML/syllabus.pdf \[pdf\]]\n
+
+== Topics
+
+- Introduction
+-- Applications in ML [./teaching/OPTML/leture_1_introduction.pptx \[slides\]]\n
+-- Convex analysis and complexity analysis
+
+- First-order methods I: basic concepts
+-- Gradient method
+-- Subgradient method
+-- Mirror descent
+-- Proximal gradient method
+-- Accelerated gradient method
+-- Frank-Wolfe method
+
+- First-order methods II: advanced topics
+-- Inexact proximal point methods
+-- Operator splitting
+-- Randomized coordinate descent
+-- Optimization in relative scale
+-- Smoothing techniques
+
+- Selected topics in machine learning
+-- Nonconvex optimization
+-- Stochastic optimization
+-- Distributed optimization
+-- Manifold optimization
+-- Reinforcement learning
+
+- Beyond first-order methods
+-- Second-order methods 
+-- Higher-order methods
