@@ -5,19 +5,26 @@ This course primarily focuses on algorithms for large-scale optimization problem
 
 == Course Information
 
+- [./teaching/OPTML/syllabus.pdf Syllabus]
+
 - Instructor: [https://jiaming-liang.github.io/ Jiaming Liang]
 
-- Teaching assistant: Lin Zang
+- Teaching Assistant: Lin Zang
 
-- Meeting information: 9:40-10:55 am, Tuesday/Thursday, Hylan Building 203
+- Meeting Information: 9:40-10:55 am, Tuesday/Thursday, Hylan Building 203
 
-- Office hours: 4:00-5:oo pm, Wednesday, Wegmans Hall 2403 (Jiaming Liang), 4:00-5:oo pm, Friday Wegmans Hall 1219 (Lin Zang)
+- Office Hours
+-- 4:00-5:oo pm, Wednesday, Wegmans Hall 2403 (Jiaming Liang)
+-- 4:00-5:oo pm, Friday, Wegmans Hall 1219 (Lin Zang)
 
 - Textbooks
 -- Amir Beck. /First-order methods in optimization/. SIAM, 2017.
 -- Yurii Nesterov. /Lectures on convex optimization/. Springer, 2018.
 
-- Syllabus [./teaching/OPTML/syllabus.pdf \[pdf\]]\n
+- Recommended Readings
+-- Guanghui Lan. /First-order and Stochastic Optimization Methods for Machine Learning/. Springer, 2020.
+-- Benjamin Recht and Stephen Wright. /Optimization for Data Analysis/. Cambridge University Press, 2022.
+-- Suvrit Sra, Sebastian Nowozin, and Stephen Wright, eds. /Optimization for Machine Learning/. MIT Press, 2011.
 
 == Topics
 
