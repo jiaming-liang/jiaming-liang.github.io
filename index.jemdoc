@@ -17,8 +17,8 @@ University of Rochester \n
 #H. Milton Stewart School of Industrial and Systems Engineering\n
 #Georgia Institute of Technology\n
 
-#Office: Main 314 \n
-Email: firstname DOT lastname AT yale DOT edu \n
+Office: Wegmans Hall 2403, 250 Hutchison Rd, Rochester, NY 14620 \n
+Email: firstname DOT lastname AT rochester DOT edu \n
 #\/ lastnamefirstname AT cuhk DOT edu DOT cn\n
 #[https://www.linkedin.com/in/jiamingliang/ Linkedin]
 #[https://github.com/chao92 Github], [http://chaojiang.me/ Blog]
@@ -27,7 +27,7 @@ Email: firstname DOT lastname AT yale DOT edu \n
 
 #*I am currently on the 2021-2022 academic job market and looking for faculty position openings in OR\/IE\/Applied Math\/Data Science and related fields.*
 
-#*I will be joining the University of Rochester as an assistant professor in [https://www.sas.rochester.edu/dsc/ Data Science] and [https://www.cs.rochester.edu/ Computer Science] in Summer 2023.*
+*Prospective students:* I am looking for graduate students who are interested in optimization, sampling, and other topics in data science, machine learning, and operations research. Feel free to contact me about any interest we may share.
 
 ~~~
 
@@ -55,9 +55,9 @@ His primary research goal is to design, analyze and implement fast algorithms fo
 - Sampling Algorithms
 - Foundation of Data Science
 == News 
+- The paper [https://proceedings.mlr.press/v195/yuan23a.html "On a Class of Gibbs Sampling over Networks"] has been published in Conference on Learning Theory (COLT) 2023.
 - The paper [https://openreview.net/forum?id=CkXOwlhf27 "A Proximal Algorithm for Sampling"] has been published in Transactions on Machine Learning Research.
 - The paper [https://pubsonline.informs.org/doi/abs/10.1287/moor.2023.1372 "A unified analysis of a class of proximal bundle methods for solving hybrid convex composite optimization problems"] has been published in Mathematics of Operations Research.
-- The paper [https://arxiv.org/abs/2306.13801 "On a Class of Gibbs Sampling over Networks"] has been accepted by Conference on Learning Theory (COLT) 2023.
 - The paper [https://link.springer.com/article/10.1007/s10589-023-00490-3 "Average Curvature FISTA for Nonconvex Smooth Composite Optimization Problems"] has been published in Computational Optimization and Applications.
 - A new paper [https://arxiv.org/abs/2303.14896 "Proximal bundle methods for hybrid weakly convex composite optimization problems"].
 - A new paper [https://arxiv.org/abs/2207.09024 "A single cut proximal bundle method for stochastic convex composite optimization"].
