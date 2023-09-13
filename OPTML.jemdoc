@@ -33,7 +33,7 @@ This course primarily focuses on algorithms for large-scale optimization problem
 -- Convexity and complexity [./teaching/OPTML/Lec2_Convexity_and_Complexity.pdf \[notes\]]\n
 
 - First-order methods I: basic concepts
--- Gradient method
+-- Gradient method [./teaching/OPTML/Lec3_Gradient_Method.pdf \[notes\]]\n
 -- Subgradient method
 -- Mirror descent
 -- Proximal gradient method
