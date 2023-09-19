@@ -34,7 +34,7 @@ This course primarily focuses on algorithms for large-scale optimization problem
 
 - First-order methods I: basic concepts
 -- Gradient method [./teaching/OPTML/Lec3_Gradient_Method.pdf \[notes\]]\n
--- Subgradient method
+-- Subgradient method [./teaching/OPTML/Lec4_Subgradient_Method.pdf \[notes\]]\n
 -- Mirror descent
 -- Proximal gradient method
 -- Accelerated gradient method
