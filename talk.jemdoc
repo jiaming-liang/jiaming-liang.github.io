@@ -2,9 +2,11 @@
 = Talks
 
 - Variance Reduction and Low Sample Complexity in Stochastic Optimization via Proximal Point Methods \n
+International Conference on Stochastic Programming, Davis, CA, July 2023 \n
 SIAM Conference on Optimization, Seattle, WA, May-June 2023
 
-- A Universal Proximal Framework for Optimization and Sampling [./talk/Universal_Proximal_Framework.pdf \[slides\]] \n
+- A Universal Proximal Framework for Optimization and Sampling [./talk/CS_talk_final.pdf \[slides\]] \n
+Department of Computer Science, University of Rochester, Rochester, NY, September 2023 \n
 Goergen Institute for Data Science, University of Rochester, Rochester, NY, February 2023
 
 - A Proximal Algorithm for Sampling from Nonsmooth Potentials [./talk/Nonsmooth_Sampling.pdf \[slides\]] \n
