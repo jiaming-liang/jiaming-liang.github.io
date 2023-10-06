@@ -1,5 +1,5 @@
 # jemdoc: menu{MENU}{teaching.html}
-= Continuous ALgorithms for Optimization and Sampling, Spring 2024
+= Continuous Algorithms for Optimization and Sampling, Spring 2024
 
 Traditional algorithms in computer science are designed in a discrete manner. Nonetheless, recent years have witnessed great advances from a continuous perspective, particularly in the design of optimization and sampling algorithms. There is a deep connection between optimization and sampling, either through optimization as the limit of sampling, or through sampling as optimization in the space of probability measures. Motivated by this viewpoint, this course aims to develop a systematic way to design and analyze algorithms for both areas from the continuous perspective. More particularly, this course starts from continuous optimization, discusses stochastic optimization in detail, introduces optimal transport as a bridge connecting optimization and sampling, and finally delves into sampling.
 
