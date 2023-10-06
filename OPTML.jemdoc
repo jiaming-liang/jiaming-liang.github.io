@@ -38,7 +38,7 @@ This course primarily focuses on algorithms for large-scale optimization problem
 -- Mirror descent [./teaching/OPTML/Lec5_Mirror_Descent.pdf \[notes\]]\n
 -- Proximal gradient method [./teaching/OPTML/Lec6_Proximal_Gradient.pdf \[notes\]]\n
 -- Accelerated gradient method [./teaching/OPTML/Lec7_Accelerated_Gradient.pdf \[notes\]]\n
--- Frank-Wolfe method
+-- Frank-Wolfe method [./teaching/OPTML/Lec8_Frank-Wolfe_Method.pdf \[notes\]]\n
 
 - First-order methods II: advanced topics
 -- Inexact proximal point methods
