@@ -1,0 +1,44 @@
+# jemdoc: menu{MENU}{teaching.html}
+= Continuous ALgorithms for Optimization and Sampling, Spring 2024
+
+Traditional algorithms in computer science are designed in a discrete manner. Nonetheless, recent years have witnessed great advances from a continuous perspective, particularly in the design of optimization and sampling algorithms. There is a deep connection between optimization and sampling, either through optimization as the limit of sampling, or through sampling as optimization in the space of probability measures. Motivated by this viewpoint, this course aims to develop a systematic way to design and analyze algorithms for both areas from the continuous perspective. More particularly, this course starts from continuous optimization, discusses stochastic optimization in detail, introduces optimal transport as a bridge connecting optimization and sampling, and finally delves into sampling.
+
+
+== Course Information
+
+- [./teaching/CONTALG/syllabus.pdf Syllabus]
+
+- Instructor: [https://jiaming-liang.github.io/ Jiaming Liang]
+
+#- Teaching Assistant: Lin Zang
+
+#- Meeting Information: 9:40-10:55 am, Tuesday/Thursday, Hylan Building 203
+
+#- Office Hours
+#-- 4:00-5:oo pm, Wednesday, Wegmans Hall 2403 (Jiaming Liang)
+#-- 4:00-5:oo pm, Friday, Wegmans Hall 1219 (Lin Zang)
+
+- Textbooks
+-- Amir Beck. /First-order methods in optimization/. SIAM, 2017.
+-- Alexander Shapiro, Darinka Dentcheva, and Andrzej Ruszczynski. /Lectures on Stochastic
+Programming: Modeling and Theory/. SIAM, 2021.
+-- Cédric Villani. /Topics in Optimal Transportation/. American Mathematical Society, 2021.
+-- Sinho Chewi. [https://chewisinho.github.io/main.pdf /Log-Concave Sampling/]. Draft, 2023.
+
+#- Recommended Readings
+#-- Guanghui Lan. /First-order and Stochastic Optimization Methods for Machine Learning/. Springer, 2020.
+#-- Benjamin Recht and Stephen Wright. /Optimization for Data Analysis/. Cambridge University Press, 2022.
+#-- Suvrit Sra, Sebastian Nowozin, and Stephen Wright, eds. /Optimization for Machine Learning/. MIT Press, 2011.
+
+== Topics
+
+- Introduction
+
+- Continuous optimization
+
+- Stochastic optimization
+
+- Optimal transport
+
+- Sampling
+
