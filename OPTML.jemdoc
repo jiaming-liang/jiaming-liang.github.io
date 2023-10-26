@@ -41,11 +41,11 @@ This course primarily focuses on algorithms for large-scale optimization problem
 -- Frank-Wolfe method [./teaching/OPTML/Lec8_Frank-Wolfe_Method.pdf \[notes\]]\n
 
 - First-order methods II: advanced topics
--- Inexact proximal point methods
--- Operator splitting
--- Randomized coordinate descent
--- Optimization in relative scale
+-- Inexact proximal point methods [./teaching/OPTML/Lec9_Inexact_Proximal_Point.pdf \[notes\]]\n
+-- Augmented Lagrangian
 -- Smoothing techniques
+-- Optimization in relative scale
+-- Randomized coordinate descent
 
 - Selected topics in machine learning
 -- Nonconvex optimization
