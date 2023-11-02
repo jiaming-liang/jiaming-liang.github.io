@@ -7,14 +7,15 @@
 - Proximal bundle methods for hybrid weakly convex composite optimization problems
  [https://arxiv.org/pdf/2303.14896.pdf \[pdf\]] \n
 -- Jiaming Liang, Renato D.C. Monteiro and Honghao Zhang, arXiv:2303.14896, 2023
-- A single cut proximal bundle method for stochastic convex composite optimization [https://arxiv.org/pdf/2207.09024.pdf \[pdf\]] \n
--- Jiaming Liang, Vincent Guigues and Renato D.C. Monteiro, arXiv:2207.09024, 2022
 #-- A Proximal Algorithm for Sampling from Non-convex Potentials [https://arxiv.org/pdf/2205.10188.pdf \[pdf\]] \n
 #--- Jiaming Liang and Yongxin Chen, arXiv:2205.10188, 2022
 - A Doubly Accelerated Inexact Proximal Point Method for Nonconvex Composite Optimization Problems [https://arxiv.org/pdf/1811.11378.pdf \[pdf\]] \n
 -- Jiaming Liang and Renato D.C. Monteiro, arXiv:1811.11378, 2018
 
 == Journal Papers
+- A single cut proximal bundle method for stochastic convex composite optimization [https://arxiv.org/pdf/2207.09024.pdf \[pdf\]] \n
+-- Jiaming Liang, Vincent Guigues and Renato D.C. Monteiro
+-- *Mathematical Programming*, 2023
 - A Proximal Algorithm for Sampling [https://openreview.net/pdf?id=CkXOwlhf27 \[pdf\]] \n
 -- Jiaming Liang and Yongxin Chen
 -- *Transactions on Machine Learning Research*, 2023
@@ -23,7 +24,7 @@
 -- *Mathematics of Operations Research*, 2023
 - Average Curvature FISTA for Nonconvex Smooth Composite Optimization Problems [https://link.springer.com/article/10.1007/s10589-023-00490-3 \[pdf\]] \n
 -- Jiaming Liang and Renato D.C. Monteiro
--- *Computational Optimization and Applications*, 2023
+-- *Computational Optimization and Applications*, 86(1):275-302, 2023
 - A Proximal Bundle Variant with Optimal Iteration-Complexity for a Large Range of Prox Stepsizes [https://epubs.siam.org/doi/10.1137/20M1327513 \[pdf\]] \n
 -- Jiaming Liang and Renato D.C. Monteiro
 -- *SIAM Journal on Optimization*, 31(4):2955–2986, 2021
