@@ -55,12 +55,12 @@ His primary research goal is to design, analyze and implement fast algorithms fo
 - Sampling Algorithms
 - Foundation of Data Science
 == News 
+- The paper [https://arxiv.org/abs/2207.09024 "A single cut proximal bundle method for stochastic convex composite optimization"] has been accepted by Mathematical Programming.
 - The paper [https://proceedings.mlr.press/v195/yuan23a.html "On a Class of Gibbs Sampling over Networks"] has been published in Conference on Learning Theory (COLT) 2023.
 - The paper [https://openreview.net/forum?id=CkXOwlhf27 "A Proximal Algorithm for Sampling"] has been published in Transactions on Machine Learning Research.
 - The paper [https://pubsonline.informs.org/doi/abs/10.1287/moor.2023.1372 "A unified analysis of a class of proximal bundle methods for solving hybrid convex composite optimization problems"] has been published in Mathematics of Operations Research.
 - The paper [https://link.springer.com/article/10.1007/s10589-023-00490-3 "Average Curvature FISTA for Nonconvex Smooth Composite Optimization Problems"] has been published in Computational Optimization and Applications.
 - A new paper [https://arxiv.org/abs/2303.14896 "Proximal bundle methods for hybrid weakly convex composite optimization problems"].
-- A new paper [https://arxiv.org/abs/2207.09024 "A single cut proximal bundle method for stochastic convex composite optimization"].
 
 
 #- A new paper [https://arxiv.org/abs/2205.10188 "A Proximal Algorithm for Sampling from Non-convex Potentials"].
