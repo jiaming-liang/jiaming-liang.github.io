@@ -42,10 +42,10 @@ This course primarily focuses on algorithms for large-scale optimization problem
 
 - First-order methods II: advanced topics
 -- Inexact proximal point methods [./teaching/OPTML/Lec9_Inexact_Proximal_Point.pdf \[notes\]]\n
--- Augmented Lagrangian
--- Smoothing techniques
+-- Augmented Lagrangian [./teaching/OPTML/Lec10_Augmented_Lagrangian.pdf \[notes\]]\n
+-- Smoothing techniques [./teaching/OPTML/Lec11_Smoothing_Technique.pdf \[notes\]]\n
 -- Optimization in relative scale
--- Randomized coordinate descent
+-- Randomized block coordinate descent
 
 - Selected topics in machine learning
 -- Nonconvex optimization
