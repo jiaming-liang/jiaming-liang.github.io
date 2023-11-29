@@ -49,12 +49,11 @@ This course primarily focuses on algorithms for large-scale optimization problem
 #-- Universal method
 
 - Selected topics in machine learning
--- Nonconvex optimization
--- Stochastic optimization
+-- Nonconvex optimization [./teaching/OPTML/Lec14_Nonconvex_Optimization.pdf \[notes\]]\n
+-- Stochastic optimization [./teaching/OPTML/Lec15_Stochastic_Optimization.pdf \[notes\]]\n
 #-- Distributed optimization
 #-- Manifold optimization
--- Reinforcement learning
+-- Reinforcement learning [./teaching/OPTML/Lec16_Reinforcement_Learning.pdf \[notes\]]\n
 
 - Beyond first-order methods
--- Second-order methods 
--- Higher-order methods
+-- Second and higher-order methods
