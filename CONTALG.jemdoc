@@ -14,8 +14,8 @@ Traditional algorithms in computer science are designed in a discrete manner. No
 
 - Meeting Information: 11:05 am-12:20 pm, Tuesday/Thursday, Meliora Hall 209
 
-- Office Hours
--- 2:00-3:00 pm, Tuesday, Wegmans Hall 2403 
+#- Office Hours
+#-- 2:00-3:00 pm, Tuesday, Wegmans Hall 2403 
 #-- 4:00-5:00 pm, Friday, Wegmans Hall 1219 (Lin Zang)
 
 - Textbooks
@@ -33,6 +33,7 @@ Programming: Modeling and Theory/. SIAM, 2021.
 == Topics
 
 - Introduction
+-- Interface between optimization and sampling [./teaching/OPTML/leture_1_introduction.pptx \[slides\]]\n
 
 - Continuous optimization
 
