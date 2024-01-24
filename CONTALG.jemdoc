@@ -37,6 +37,7 @@ Programming: Modeling and Theory/. SIAM, 2021.
 
 - Continuous optimization
 -- Subgradient method [./teaching/CONTALG/Lec2_Subgradient_Method.pdf \[notes\]]\n
+-- Mirror descent [./teaching/CONTALG/Lec3_Mirror_Descent.pdf \[notes\]]\n
 
 - Stochastic optimization
 
