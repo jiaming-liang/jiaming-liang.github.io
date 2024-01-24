@@ -36,6 +36,7 @@ Programming: Modeling and Theory/. SIAM, 2021.
 -- Interface between optimization and sampling [./teaching/OPTML/leture_1_introduction.pptx \[slides\]]\n
 
 - Continuous optimization
+-- Subgradient method [./teaching/CONTALG/Lec2_Subgradient_Method.pdf \[notes\]]\n
 
 - Stochastic optimization
 
