@@ -55,6 +55,7 @@ His primary research goal is to design, analyze and implement fast algorithms fo
 - Sampling Algorithms
 - Foundation of Data Science
 == News 
+- A new paper [https://arxiv.org/abs/2402.08992 "Variance Reduction and Low Sample Complexity in Stochastic Optimization via Proximal Point Method"].
 - The paper [https://link.springer.com/article/10.1007/s10107-023-02035-2 "A single cut proximal bundle method for stochastic convex composite optimization"] has been published in Mathematical Programming.
 - A new paper [https://arxiv.org/abs/2303.14896 "Proximal bundle methods for hybrid weakly convex composite optimization problems"].
 
