@@ -4,8 +4,9 @@
 
 == Preprints
 
-- Proximal bundle methods for hybrid weakly convex composite optimization problems
- [https://arxiv.org/pdf/2303.14896.pdf \[pdf\]] \n
+- Variance Reduction and Low Sample Complexity in Stochastic Optimization via Proximal Point Method [https://arxiv.org/pdf/2402.08992.pdf \[pdf\]] \n
+-- Jiaming Liang, arXiv:2402.08992, 2024
+- Proximal bundle methods for hybrid weakly convex composite optimization problems [https://arxiv.org/pdf/2303.14896.pdf \[pdf\]] \n
 -- Jiaming Liang, Renato D.C. Monteiro and Honghao Zhang, arXiv:2303.14896, 2023
 #-- A Proximal Algorithm for Sampling from Non-convex Potentials [https://arxiv.org/pdf/2205.10188.pdf \[pdf\]] \n
 #--- Jiaming Liang and Yongxin Chen, arXiv:2205.10188, 2022
