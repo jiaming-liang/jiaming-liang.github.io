@@ -45,6 +45,7 @@ Programming: Modeling and Theory/. SIAM, 2021.
 #- Sampling
 - Differential privacy
 - Langevin Monte Carlo
+- Mirror Langevin algorithm
 - Proximal sampling
 #- Optimal transport (Monge-Kantorovich problem, Wasserstein space, Otto's calculus, transport inequalities)
 #- Entropic regularization, gradient flows, Sinkhorn algorithm
