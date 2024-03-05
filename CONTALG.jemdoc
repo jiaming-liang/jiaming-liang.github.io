@@ -43,7 +43,7 @@ Programming: Modeling and Theory/. SIAM, 2021.
 - Stochastic approximation [./teaching/CONTALG/Lec6_Stochastic_Approximation.pdf \[notes\]]\n
 #- Optimal transport
 #- Sampling
-- Differential privacy
+- Differential privacy [./teaching/CONTALG/Lec7_Differential_Privacy.pdf \[notes\]]\n
 - Langevin Monte Carlo
 - Mirror Langevin algorithm
 - Proximal sampling
