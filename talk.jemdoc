@@ -1,6 +1,9 @@
 # jemdoc: menu{MENU}{talk.html}
 = Talks
 
+- Proximal Oracles for Optimization and Sampling [./talk/IOS_2024.pdf \[slides\]] \n
+INFORMS Optimization Society Conference, Houston, TX, March 2024 \n
+
 - Variance Reduction and Low Sample Complexity in Stochastic Optimization via Proximal Point Methods [./talk/SIAM_NNP_23_slides_final.pdf \[slides\]] \n
 SIAM-NNP Annual Meeting, Newark, NJ, October 2023 \n
 INFORMS Annual Meeting, Phoenix, AZ, October 2023 \n
