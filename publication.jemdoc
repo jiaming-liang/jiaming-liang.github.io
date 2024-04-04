@@ -4,6 +4,8 @@
 
 == Preprints
 
+- Proximal Oracles for Optimization and Sampling [https://arxiv.org/pdf/2404.02239.pdf \[pdf\]] \n
+-- Jiaming Liang and Yongxin Chen, arXiv:2404.02239, 2024
 - On Independent Samples Along the Langevin Diffusion and the Unadjusted Langevin Algorithm [https://arxiv.org/pdf/2402.17067.pdf \[pdf\]] \n
 -- Jiaming Liang, Siddharth Mitra and Andre Wibisono, arXiv:2402.17067, 2024
 - Variance Reduction and Low Sample Complexity in Stochastic Optimization via Proximal Point Method [https://arxiv.org/pdf/2402.08992.pdf \[pdf\]] \n
