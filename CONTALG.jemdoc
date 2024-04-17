@@ -46,8 +46,8 @@ Programming: Modeling and Theory/. SIAM, 2021.
 - Differential privacy [./teaching/CONTALG/Lec7_Differential_Privacy.pdf \[notes\]]\n
 - Langevin Monte Carlo [./teaching/CONTALG/Lec8_Langevin_Monte_Carlo.pdf \[notes\]]\n
 - Proximal sampling [./teaching/CONTALG/Lec9_Proximal_Sampling.pdf \[notes\]]\n
-- Wasserstein space
-- Mirror Langevin algorithm
+- Wasserstein space [./teaching/CONTALG/Lec10_Wasserstein_Space.pdf \[notes\]]\n
+#- Mirror Langevin algorithm
 #- Optimal transport (Monge-Kantorovich problem, Wasserstein space, Otto's calculus, transport inequalities)
 #- Entropic regularization, gradient flows, Sinkhorn algorithm
 #- Economics applications
