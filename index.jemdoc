@@ -27,7 +27,7 @@ Email: firstname DOT lastname AT rochester DOT edu \n
 
 #*I am currently on the 2021-2022 academic job market and looking for faculty position openings in OR\/IE\/Applied Math\/Data Science and related fields.*
 
-*Prospective students:* I am looking for graduate students and postdocs who are interested in optimization, sampling, and other topics in data science, machine learning, and operations research. Feel free to contact me about any interest we may share.
+#*Prospective students:* I am looking for graduate students and postdocs who are interested in optimization, sampling, and other topics in data science, machine learning, and operations research. Feel free to contact me about any interest we may share.
 
 ~~~
 
@@ -53,7 +53,7 @@ His primary research goal is to design, analyze and implement fast algorithms fo
 - Nonsmooth Optimization
 - Stochastic Optimization
 - Sampling Algorithms
-- Foundation of Data Science
+#- Foundation of Data Science
 == News 
 - A new paper [https://arxiv.org/abs/2404.02239 "Proximal Oracles for Optimization and Sampling"].
 - A new paper [https://arxiv.org/abs/2402.17067 "On Independent Samples Along the Langevin Diffusion and the Unadjusted Langevin Algorithm"].
