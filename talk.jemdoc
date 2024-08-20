@@ -1,7 +1,7 @@
 # jemdoc: menu{MENU}{talk.html}
 = Talks
 
-- Universal subgradient and proximal bundle methods for convex and strongly convex hybrid composite optimization \n
+- Universal subgradient and proximal bundle methods for convex and strongly convex hybrid composite optimization [./talk/universal.pdf \[slides\]] \n
 International Symposium on Mathematical Programming, Montréal, Canada, July 2024 \n
 NSF CompMath PI meeting, Seattle, WA, July 2024 \n
 
