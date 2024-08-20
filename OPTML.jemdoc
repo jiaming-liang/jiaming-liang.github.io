@@ -1,11 +1,11 @@
 # jemdoc: menu{MENU}{teaching.html}
-= Optimization for Machine Learning, Fall 2023
+= Optimization for Machine Learning, Fall 2024
 
-This course primarily focuses on algorithms for large-scale optimization problems arising in machine learning and data science applications. The first part will cover first-order methods including gradient and subgradient methods, mirror descent, proximal gradient method, accelerated gradient method, Frank-Wolfe method, and inexact proximal point methods. The second part will introduce algorithms for nonconvex optimization, stochastic optimization, distributed optimization, manifold optimization, reinforcement learning, and those beyond first-order.
+This course primarily focuses on algorithms for large-scale optimization problems arising in machine learning and data science applications. The first part will cover various first-order methods including gradient and subgradient methods, mirror descent, proximal gradient method, accelerated gradient method, Frank-Wolfe method, and dual methods. The second part will survey topics in machine learning from an optimization perspective, e.g., stochastic optimization, distributionally robust optimization, online learning, and reinforcement learning.
 
 == Course Information
 
-- [https://www.youtube.com/watch?v=I_6bIrbaBW0&list=PLuJY91x7h5orCtyh6mChurVQ2ZZef9qPF&ab_channel=JiamingLiang YouTube videos]
+- [https://www.youtube.com/watch?v=I_6bIrbaBW0&list=PLuJY91x7h5orCtyh6mChurVQ2ZZef9qPF&ab_channel=JiamingLiang YouTube videos from Fall 2023]
 
 - [./teaching/OPTML/syllabus.pdf Syllabus]
 
@@ -31,31 +31,31 @@ This course primarily focuses on algorithms for large-scale optimization problem
 == Topics
 
 - Introduction
--- Applications in ML [./teaching/OPTML/leture_1_introduction.pptx \[slides\]]\n
--- Convexity and complexity [./teaching/OPTML/Lec2_Convexity_and_Complexity.pdf \[notes\]]\n
+-- Applications in ML #[./teaching/OPTML/leture_1_introduction.pptx \[slides\]]\n
+#-- Convexity and complexity [./teaching/OPTML/Lec2_Convexity_and_Complexity.pdf \[notes\]]\n
 
-- First-order methods I: basic concepts
--- Gradient method [./teaching/OPTML/Lec3_Gradient_Method.pdf \[notes\]]\n
--- Subgradient method [./teaching/OPTML/Lec4_Subgradient_Method.pdf \[notes\]]\n
--- Mirror descent [./teaching/OPTML/Lec5_Mirror_Descent.pdf \[notes\]]\n
--- Proximal gradient method [./teaching/OPTML/Lec6_Proximal_Gradient.pdf \[notes\]]\n
--- Accelerated gradient method [./teaching/OPTML/Lec7_Accelerated_Gradient.pdf \[notes\]]\n
--- Frank-Wolfe method [./teaching/OPTML/Lec8_Frank-Wolfe_Method.pdf \[notes\]]\n
+#- First-order methods I: basic concepts
+#-- Gradient method [./teaching/OPTML/Lec3_Gradient_Method.pdf \[notes\]]\n
+#-- Subgradient method [./teaching/OPTML/Lec4_Subgradient_Method.pdf \[notes\]]\n
+#-- Mirror descent [./teaching/OPTML/Lec5_Mirror_Descent.pdf \[notes\]]\n
+#-- Proximal gradient method [./teaching/OPTML/Lec6_Proximal_Gradient.pdf \[notes\]]\n
+#-- Accelerated gradient method [./teaching/OPTML/Lec7_Accelerated_Gradient.pdf \[notes\]]\n
+#-- Frank-Wolfe method [./teaching/OPTML/Lec8_Frank-Wolfe_Method.pdf \[notes\]]\n
 
-- First-order methods II: advanced topics
--- Inexact proximal point methods [./teaching/OPTML/Lec9_Inexact_Proximal_Point.pdf \[notes\]]\n
--- Augmented Lagrangian [./teaching/OPTML/Lec10_Augmented_Lagrangian.pdf \[notes\]]\n
--- Smoothing techniques [./teaching/OPTML/Lec11_Smoothing_Technique.pdf \[notes\]]\n
--- Optimization in relative scale [./teaching/OPTML/Lec12_Optimization_in_Relative_Scale.pdf \[notes\]]\n
--- Randomized block coordinate descent [./teaching/OPTML/Lec13_Randomized_Block_Coordinate_Descent.pdf \[notes\]]\n
+#- First-order methods II: advanced topics
+#-- Inexact proximal point methods [./teaching/OPTML/Lec9_Inexact_Proximal_Point.pdf \[notes\]]\n
+#-- Augmented Lagrangian [./teaching/OPTML/Lec10_Augmented_Lagrangian.pdf \[notes\]]\n
+#-- Smoothing techniques [./teaching/OPTML/Lec11_Smoothing_Technique.pdf \[notes\]]\n
+#-- Optimization in relative scale [./teaching/OPTML/Lec12_Optimization_in_Relative_Scale.pdf \[notes\]]\n
+#-- Randomized block coordinate descent [./teaching/OPTML/Lec13_Randomized_Block_Coordinate_Descent.pdf \[notes\]]\n
 #-- Universal method
 
-- Selected topics in machine learning
--- Nonconvex optimization [./teaching/OPTML/Lec14_Nonconvex_Optimization.pdf \[notes\]]\n
--- Stochastic optimization [./teaching/OPTML/Lec15_Stochastic_Optimization.pdf \[notes\]]\n
+#- Selected topics in machine learning
+#-- Nonconvex optimization [./teaching/OPTML/Lec14_Nonconvex_Optimization.pdf \[notes\]]\n
+#-- Stochastic optimization [./teaching/OPTML/Lec15_Stochastic_Optimization.pdf \[notes\]]\n
 #-- Distributed optimization
 #-- Manifold optimization
--- Reinforcement learning [./teaching/OPTML/Lec16_Reinforcement_Learning.pdf \[notes\]]\n
+#-- Reinforcement learning [./teaching/OPTML/Lec16_Reinforcement_Learning.pdf \[notes\]]\n
 
-- Beyond first-order methods
--- Second and higher-order methods
+#- Beyond first-order methods
+#-- Second and higher-order methods
