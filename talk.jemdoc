@@ -1,10 +1,18 @@
 # jemdoc: menu{MENU}{talk.html}
 = Talks
 
+- Universal subgradient and proximal bundle methods for convex and strongly convex hybrid composite optimization \n
+International Symposium on Mathematical Programming, Montréal, Canada, July 2024 \n
+NSF CompMath PI meeting, Seattle, WA, July 2024 \n
+
 - Proximal Oracles for Optimization and Sampling [./talk/IOS_2024.pdf \[slides\]] \n
+Antai College of Economics and Management, Shanghai Jiao Tong University, Shanghai, China, June 2024 \n
+Peking University, Beijing, China, May 2024 \n
+Department of Applied Mathematics, The Hong Kong Polytechnic University, Hong Kong, May 2024 \n
 INFORMS Optimization Society Conference, Houston, TX, March 2024 \n
 
 - Variance Reduction and Low Sample Complexity in Stochastic Optimization via Proximal Point Methods [./talk/SIAM_NNP_23_slides_final.pdf \[slides\]] \n
+Department of Industrial Engineering, Tsinghua University, Beijing, China, May 2024 \n
 SIAM-NNP Annual Meeting, Newark, NJ, October 2023 \n
 INFORMS Annual Meeting, Phoenix, AZ, October 2023 \n
 International Conference on Stochastic Programming, Davis, CA, July 2023 \n
