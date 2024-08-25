@@ -31,7 +31,7 @@ This course primarily focuses on algorithms for large-scale optimization problem
 == Topics
 
 - Introduction
--- Applications in ML #[./teaching/OPTML/leture_1_introduction.pptx \[slides\]]\n
+-- Applications in ML [./teaching/OPTML/leture_1_introduction.pptx \[slides\]]\n
 #-- Convexity and complexity [./teaching/OPTML/Lec2_Convexity_and_Complexity.pdf \[notes\]]\n
 
 #- First-order methods I: basic concepts
