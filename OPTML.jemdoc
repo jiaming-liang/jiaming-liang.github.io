@@ -24,6 +24,7 @@ This course primarily focuses on algorithms for large-scale optimization problem
 -- Yurii Nesterov. /Lectures on convex optimization/. Springer, 2018.
 
 - Recommended Readings
+-- Fatma Kilinc-Karzan and Arkadi Nemirovski. /Mathematical Essentials for Convex Optimization/. Cambridge University Press, 2024+.
 -- Guanghui Lan. /First-order and Stochastic Optimization Methods for Machine Learning/. Springer, 2020.
 -- Benjamin Recht and Stephen Wright. /Optimization for Data Analysis/. Cambridge University Press, 2022.
 -- Suvrit Sra, Sebastian Nowozin, and Stephen Wright, eds. /Optimization for Machine Learning/. MIT Press, 2011.
