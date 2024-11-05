@@ -43,8 +43,9 @@ This course primarily focuses on algorithms for large-scale optimization problem
 -- Accelerated gradient method [./teaching/OPTML/Lec7_Accelerated_Gradient.pdf \[notes\]]\n
 -- Frank-Wolfe method [./teaching/OPTML/Lec8_Frank-Wolfe_Method.pdf \[notes\]]\n
 
-#- First-order methods II: advanced topics
-#-- Inexact proximal point methods [./teaching/OPTML/Lec9_Inexact_Proximal_Point.pdf \[notes\]]\n
+- First-order methods II: advanced topics
+-- Dual methods [./teaching/OPTML/Lec9_Dual_Methods.pdf \[notes\]]\n
+-- Stochastic approximation [./teaching/OPTML/Lec10_Stochastic_Approximation.pdf \[notes\]]\n
 #-- Augmented Lagrangian [./teaching/OPTML/Lec10_Augmented_Lagrangian.pdf \[notes\]]\n
 #-- Smoothing techniques [./teaching/OPTML/Lec11_Smoothing_Technique.pdf \[notes\]]\n
 #-- Optimization in relative scale [./teaching/OPTML/Lec12_Optimization_in_Relative_Scale.pdf \[notes\]]\n
@@ -53,7 +54,6 @@ This course primarily focuses on algorithms for large-scale optimization problem
 
 #- Selected topics in machine learning
 #-- Nonconvex optimization [./teaching/OPTML/Lec14_Nonconvex_Optimization.pdf \[notes\]]\n
-#-- Stochastic optimization [./teaching/OPTML/Lec15_Stochastic_Optimization.pdf \[notes\]]\n
 #-- Distributed optimization
 #-- Manifold optimization
 #-- Reinforcement learning [./teaching/OPTML/Lec16_Reinforcement_Learning.pdf \[notes\]]\n
