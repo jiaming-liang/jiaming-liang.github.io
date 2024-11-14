@@ -46,8 +46,8 @@ This course primarily focuses on algorithms for large-scale optimization problem
 - First-order methods II: advanced topics
 -- Dual methods [./teaching/OPTML/Lec9_Dual_Methods.pdf \[notes\]]\n
 -- Stochastic approximation [./teaching/OPTML/Lec10_Stochastic_Approximation.pdf \[notes\]]\n
+-- Smoothing techniques [./teaching/OPTML/Lec11_Smoothing_Techniques.pdf \[notes\]]\n
 #-- Augmented Lagrangian [./teaching/OPTML/Lec10_Augmented_Lagrangian.pdf \[notes\]]\n
-#-- Smoothing techniques [./teaching/OPTML/Lec11_Smoothing_Technique.pdf \[notes\]]\n
 #-- Optimization in relative scale [./teaching/OPTML/Lec12_Optimization_in_Relative_Scale.pdf \[notes\]]\n
 #-- Randomized block coordinate descent [./teaching/OPTML/Lec13_Randomized_Block_Coordinate_Descent.pdf \[notes\]]\n
 #-- Universal method
