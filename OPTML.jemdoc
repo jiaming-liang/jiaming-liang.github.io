@@ -52,7 +52,8 @@ This course primarily focuses on algorithms for large-scale optimization problem
 #-- Randomized block coordinate descent [./teaching/OPTML/Lec13_Randomized_Block_Coordinate_Descent.pdf \[notes\]]\n
 #-- Universal method
 
-#- Selected topics in machine learning
+- Selected topics in machine learning
+-- Online Optimization [./teaching/OPTML/Lec12_Online_Optimization.pdf \[notes\]]\n
 #-- Nonconvex optimization [./teaching/OPTML/Lec14_Nonconvex_Optimization.pdf \[notes\]]\n
 #-- Distributed optimization
 #-- Manifold optimization
