@@ -4,6 +4,9 @@
 
 == Preprints
 
+- Primal-dual proximal bundle and conditional gradient methods for convex problems
+ [https://arxiv.org/pdf/2412.00585 \[pdf\]] \n
+-- Jiaming Liang, 2412.00585 2024
 - Universal subgradient and proximal bundle methods for convex and strongly convex hybrid composite optimization [https://arxiv.org/pdf/2407.10073.pdf \[pdf\]] \n
 -- Vincent Guigues, Jiaming Liang and Renato D.C. Monteiro, arXiv:2407.10073 2024
 - Proximal Oracles for Optimization and Sampling [https://arxiv.org/pdf/2404.02239.pdf \[pdf\]] \n
@@ -20,15 +23,15 @@
 -- Jiaming Liang and Renato D.C. Monteiro, arXiv:1811.11378, 2018
 
 == Journal Papers
-- A single cut proximal bundle method for stochastic convex composite optimization [https://link.springer.com/epdf/10.1007/s10107-023-02035-2?sharing_token=SLlEHwce43QGyWRpmxHSgPe4RwlQNchNByi7wbcMAY7Itbjg9zeoao5XqhoCDcU3YwsUSjDkCtcKsD29vkR_G13qybbeH8etitsLydzIzlIKRG_i8r6F998CIubqSaw6Ee_RyJcAY2nzm4sYVbyavuW0YUmYPvQeCkWqx8WOmRk%3D \[pdf\]] \n
+- A single cut proximal bundle method for stochastic convex composite optimization [https://link.springer.com/article/10.1007/s10107-023-02035-2 \[pdf\]] \n
 -- Jiaming Liang, Vincent Guigues and Renato D.C. Monteiro
--- *Mathematical Programming*, 2023
+-- *Mathematical Programming*, 208(1):173-208, 2024.
 - A Proximal Algorithm for Sampling [https://openreview.net/pdf?id=CkXOwlhf27 \[pdf\]] \n
 -- Jiaming Liang and Yongxin Chen
 -- *Transactions on Machine Learning Research*, 2023
 - A unified analysis of a class of proximal bundle methods for solving hybrid convex composite optimization problems [https://pubsonline.informs.org/doi/abs/10.1287/moor.2023.1372 \[pdf\]] \n
 -- Jiaming Liang and Renato D.C. Monteiro
--- *Mathematics of Operations Research*, 2023
+-- *Mathematics of Operations Research*, 49(2):832-855, 2024.
 - Average Curvature FISTA for Nonconvex Smooth Composite Optimization Problems [https://link.springer.com/article/10.1007/s10589-023-00490-3 \[pdf\]] \n
 -- Jiaming Liang and Renato D.C. Monteiro
 -- *Computational Optimization and Applications*, 86(1):275-302, 2023
