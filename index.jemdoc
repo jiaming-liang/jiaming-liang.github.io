@@ -55,6 +55,7 @@ His primary research goal is to design, analyze and implement fast algorithms fo
 - Sampling Algorithms
 #- Foundation of Data Science
 == News 
+- A new paper [https://arxiv.org/abs/2412.00585 "Primal-dual proximal bundle and conditional gradient methods for convex problems"].
 - A new paper [https://arxiv.org/abs/2407.10073 "Universal subgradient and proximal bundle methods for convex and strongly convex hybrid composite optimization"].
 - A new paper [https://arxiv.org/abs/2404.02239 "Proximal Oracles for Optimization and Sampling"].
 - A new paper [https://arxiv.org/abs/2402.17067 "On Independent Samples Along the Langevin Diffusion and the Unadjusted Langevin Algorithm"].
