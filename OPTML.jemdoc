@@ -54,7 +54,7 @@ This course primarily focuses on algorithms for large-scale optimization problem
 
 - Selected topics in machine learning
 -- Online Optimization [./teaching/OPTML/Lec12_Online_Optimization.pdf \[notes\]]\n
-#-- Nonconvex optimization [./teaching/OPTML/Lec14_Nonconvex_Optimization.pdf \[notes\]]\n
+-- Quasi-Newton methods [./teaching/OPTML/Lec13_Quasi-Newton_Methods.pdf \[notes\]]\n
 #-- Distributed optimization
 #-- Manifold optimization
 #-- Reinforcement learning [./teaching/OPTML/Lec16_Reinforcement_Learning.pdf \[notes\]]\n
