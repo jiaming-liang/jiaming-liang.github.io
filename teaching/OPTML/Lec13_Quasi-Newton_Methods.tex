@@ -1,0 +1,390 @@
+\documentclass[11pt]{article}
+\usepackage{amssymb, amsmath, amsthm}
+\renewcommand{\baselinestretch}{1.1}
+\setlength{\textheight}{8in}
+\setlength{\topmargin}{-2pc}
+\setlength{\oddsidemargin}{0pc}
+\setlength{\evensidemargin}{0pc}
+\setlength{\textwidth}{6.5in}
+\usepackage{amsfonts,mathtools,mathrsfs,mathtools,color}
+\usepackage{graphicx,subfigure}
+%\usepackage[algo2e, linesnumbered, ruled, vlined]{algorithm2e}
+\usepackage{algorithm,algorithmic}
+
+\newtheorem{definition}{Definition}
+\newtheorem{theorem}{Theorem}
+\newtheorem*{theorem*}{Theorem}
+\newtheorem{lemma}{Lemma}
+\newtheorem{corollary}{Corollary}
+\newtheorem{example}{Example}
+\newtheorem{assumption}{Assumption}
+\newtheorem{conjecture}{Conjecture}
+\newtheorem{claim}{Claim}
+\newtheorem{proposition}{Proposition}
+
+\renewcommand{\P}{\mathcal{P}}
+\newcommand{\R}{\mathbb{R}} 
+\newcommand{\E}{\mathbb{E}}
+\newcommand{\proj}{\operatorname{proj}}
+\newcommand{\prox}{\operatorname{prox}}
+\newcommand{\Argmin}{\mathrm{Argmin}\,}
+\newcommand{\argmin}{\mathrm{argmin}\,}
+\newcommand{\Argmax}{\mathrm{Argmax}\,}
+\newcommand{\argmax}{\mathrm{argmax}\,}
+\newcommand{\inner}[2]{\langle #1,#2\rangle}
+\newcommand{\dom}{\mathrm{dom}\,}
+\newcommand{\tx}{\tilde x}
+\newcommand{\ty}{\tilde y}
+\newcommand{\tz}{\tilde z}
+
+\newcommand{\handout}[5]{
+   \renewcommand{\thepage}{#1-\arabic{page}}
+   \noindent
+   \begin{center}
+   \framebox{
+      \vbox{
+    \hbox to 5.78in { DSCC/CSC 435 \& ECE 412 Optimization for Machine Learning
+     	 \hfill #2 }
+       \vspace{4mm}
+       \hbox to 5.78in { {\Large \hfill #5  \hfill} }
+       \vspace{2mm}
+       \hbox to 5.78in { {\it #3 \hfill #4} }
+      }
+   }
+   \end{center}
+   \vspace*{4mm}
+}
+
+\newcommand{\lecture}[3]{
+\handout{#1}
+        {Lecture #2}
+        {Lecturer: Jiaming Liang}
+        {#3}
+        {#1}}
+
+\begin{document}
+
+
+%%%%%%%%%%%%%%%%
+% INSTRUCTION:
+%  * Replace (number) with lecture number, (date) with lecture date, and (your name) with your name.
+%  * Write your notes of the lecture below.
+%  * For Lecture 2 only, change the Lecturer above to be Jun-Kun Wang.
+
+\lecture{Quasi-Newton Methods}{13}{November 21, 2024}
+
+%higher-order Frank-Wolfe? minimize higher-order Taylor's expansion over a constraint set but no prox term
+%
+%Ball acceleration
+
+\section{Proximal point method}
+
+We are interested in solving
+\[
+\min\{ \phi(x) := f(x) + h(x) \}
+\]
+
+\begin{itemize}
+	\item $h$ is closed and convex;
+	\item $f$ is closed and convex, $\dom h \subseteq \dom f$;
+	\item the optimal set $X_*$ is nonempty.
+\end{itemize}
+
+
+
+\begin{algorithm}[H]
+	\caption{Proximal point method}
+	\begin{algorithmic}\label{algo:algo1}
+		\STATE \textbf{Input:} Initial point $x_0\in \dom h$ and constant stepsize $\lambda>0$
+		\FOR{$k \ge 0$}
+		\STATE Solve $x_{k+1} = \argmin_{x\in \R^n} \{ \phi(x) + \frac1{2\lambda} \|x-x_k\|^2 \}$.
+		\ENDFOR
+	\end{algorithmic}
+\end{algorithm}
+
+\begin{theorem}
+	\[
+	\phi(x_k) - \phi_* \le \frac1{2\lambda k} \|x_0-x_*\|^2
+	\]
+\end{theorem}
+\begin{proof}
+	It follows from the optimality of $ x_{k+1} $ that for every $ x\in \dom h $,
+	\[
+	\phi(x) + \frac1{2\lambda} \|x-x_k\|^2 \ge \phi(x_{k+1}) + \frac1{2\lambda} \|x_{k+1}-x_k\|^2 + \frac1{2\lambda} \|x-x_{k+1}\|^2.
+	\]
+	Taking $x=x_k$, we have
+	\[
+	\phi(x_k) \ge \phi(x_{k+1}) + \frac1{\lambda} \|x_{k+1}-x_k\|^2,
+	\]
+	and hence this is a descent method.
+	Taking $x=x_*$, we have
+	\[
+	\phi_* + \frac1{2\lambda} \|x_k-x_*\|^2 \ge \phi(x_{k+1}) + \frac1{2\lambda} \|x_{k+1}-x_k\|^2 + \frac1{2\lambda} \|x_{k+1}-x_*\|^2.
+	\]
+	Rearranging the above inequality, we obtain
+	\[
+	\phi(x_{k+1}) - \phi_* \le \frac1{2\lambda} \|x_k-x_*\|^2 -  \frac1{2\lambda} \|x_{k+1}-x_*\|^2.
+	\]
+	Summing the resulting inequality and using the descent property, we have
+	\[
+	k[\phi(x_k) - \phi_*]\le \sum_{i=1}^k [\phi(x_i) - \phi_*] \le \frac1{2\lambda} \|x_0-x_*\|^2 - \frac1{2\lambda} \|x_k-x_*\|^2 \le \frac1{2\lambda} \|x_0-x_*\|^2.
+	\]
+	Therefore, the conclusion of the theorem follows.
+\end{proof}
+
+
+\section{Inexact proximal point framework}
+
+The proximal point method is more conceptual than practical. In practice, we usually design algorithms to approximate the solution $ x_{k+1} $ to the proximal subproblem. Algorithms solving the proximal subproblem approximately can be described and analyzed under the inexact proximal point (IPP) framework.
+
+\subsection{Algorithm}
+
+\begin{algorithm}[H]
+	\caption{Inexact proximal point framework}
+	\begin{algorithmic}\label{algo:algo2}
+		\STATE \textbf{Input:} Initial point $x_0\in \dom h$ and scalar $\sigma\in (0,1]$
+		\FOR{$k \ge 1$}
+		\STATE Step 1. Choose $\lambda_k>0$ and $\delta_k\ge 0$. 
+		\STATE Step 2. Compute $(x_k,\tx_k, \varepsilon_k)$ such that
+		\begin{align}
+			\frac{x_{k-1} - x_k}{\lambda_k} &\in \partial_{\varepsilon_k} \phi(\tx_k), \label{incl:IPP}\\
+			\|x_k-\tx_k\|^2 + 2\lambda_k \varepsilon_k &\le \sigma \|\tx_k - x_{k-1}\|^2 + \delta_k. \label{ineq:IPP}
+		\end{align}
+		\ENDFOR
+	\end{algorithmic}
+\end{algorithm}
+
+
+The inclusion \eqref{incl:IPP} in the IPP framework means
+\[
+\tilde v_k = \frac{\tx_k - x_k}{\lambda_k} \in \partial_{\varepsilon_k} \left(\phi(\cdot) + \frac{1}{2\lambda_k}\|\cdot - x_{k-1}\|^2\right)(\tx_k).
+\]
+In contrast to the PPM, the above inclusion provides two relaxations $ \tilde v_k$ and $ \varepsilon_k $. If both $\tilde v_k=0$ (i.e., $ \tx_k=x_k $) and $\varepsilon_k=0$, then
+\[
+0 \in \partial \left(\phi(\cdot) + \frac{1}{2\lambda_k}\|\cdot - x_{k-1}\|^2\right)(x_k),
+\]
+i.e., the proximal problem is solved exactly
+\[
+x_k = \argmin_{x\in \R^n} \left\{ \phi(x) + \frac1{2\lambda_k} \|x-x_{k-1}\|^2 \right\}.
+\]
+Moreover, the inequality \eqref{ineq:IPP} is automatically satisfied
+\[
+\|x_k-\tx_k\|^2 + 2\lambda_k \varepsilon_k = \|\tilde v_k\|^2 + 2\lambda_k \varepsilon_k  = 0 \le \sigma \|\tx_k - x_{k-1}\|^2 + \delta_k.
+\]
+Hence, the IPP framework becomes the PPM.
+
+\subsection{Proximal gradient method as an example}
+
+In this subsection, we assume $ f $ is $ L $-smooth, then we show that the proximal gradient (PG) method with stepsize $\lambda_k\le \sigma/L $ for some $\sigma \in (0,1]$ is an instance of the IPP framework. We begin with an iteration of the PG method
+\begin{equation}\label{eq:PG}
+	x_k=\underset{x\in {\R^n}}\argmin  \left\lbrace \ell_f(x;x_{k-1}) + h(x) +\frac{1}{2\lambda_k}\|x- x_{k-1} \|^2 \right\rbrace.
+\end{equation}
+The optimality condition is
+\[
+\frac{x_{k-1} - x_k}{\lambda_k} \in \partial [\ell_f(\cdot;x_{k-1}) +h(\cdot)](x_k),
+\]
+which means for every $x\in \dom h$,
+\begin{align*}
+	\phi(x) &\ge \ell_f(x;x_{k-1}) + h(x) \\
+	&\ge \ell_f(x_k;x_{k-1}) + h(x_k) + \frac{1}{\lambda_k}\inner{x_{k-1} - x_k}{x - x_k} \\
+	&= \phi(x_k) + \frac{1}{\lambda_k}\inner{x_{k-1} - x_k}{x - x_k} - \varepsilon_k
+\end{align*}
+where the first inequality is due to the convexity of $f$ and $\varepsilon_k $ is defined as
+\[
+\varepsilon_k := f(x_k) - \ell_f(x_k;x_{k-1}).
+\]
+Hence, PG satisfies the inclusion \eqref{incl:IPP} of IPP with 
+\[
+\tx_k=x_k, \quad \varepsilon_k= f(x_k) - \ell_f(x_k;x_{k-1}), \quad \delta_k=0.
+\] 
+Moreover, it follows from the assumption that $f$ is $L$-smooth that
+\[
+\varepsilon_k= f(x_k) - \ell_f(x_k;x_{k-1}) \le \frac{L}{2}\|x_k-x_{k-1}\|^2=\frac{L}{2}\|\tx_k-x_{k-1}\|^2\le \frac{\sigma}{2\lambda_k}\|\tx_k-x_{k-1}\|^2.
+\]
+Hence, the inequality \eqref{ineq:IPP} of IPP is also satisfied.
+Now, we have shown PG is an instance of IPP.
+
+Next, let us show the convergence of PG using the general convergence guarantee of IPP.
+It follows from \eqref{eq:PG} and $L$-smoothness of $f$ that
+\begin{align*}
+	\phi(x_{k-1}) &\ge \ell_f(x_k;x_{k-1}) + h(x_k) + \frac1{\lambda_k}\|x_k-x_{k-1}\|^2\\
+	&\ge \phi(x_k)  + \left( \frac1{\lambda_k} - \frac{L}{2}\right) \|x_k-x_{k-1}\|^2\\
+	&\ge \phi(x_k) + \frac{2-\sigma}{2\lambda_k}\|x_k-x_{k-1}\|^2 \ge \phi(x_k) + \frac{1}{2\lambda_k}\|x_k-x_{k-1}\|^2,
+\end{align*}
+where the second last inequality is due to $\lambda_k\le \sigma/L$ and the last inequality is due to $\sigma\le 1$.
+%Suppose $\lambda_k=\lambda=\sigma/L$, then it follows from Corollary \ref{cor:smooth} that
+%\[
+%\phi(x_k) - \phi_* = \min_{1\le i \le k} \phi(\tx_i) - \phi_*  \le  \frac{\|x_0-x_*\|^2 }{2\lambda k}=\frac{L \|x_0-x_*\|^2 }{2\sigma k}.
+%\]
+
+
+\subsection*{Other examples}
+
+For simplicity, we consider the case $h\equiv 0$ and $f$ is differentiable. The examples below could be extended to the versions with $h$.
+
+\begin{itemize}
+	\item[(1)] if $f$ is $\mu$-strongly convex, approximating $f$ by $\ell_f(x;x_{k-1}) +\frac{\mu}{2}\|x-x_{k-1}\|^2$, then
+	\begin{align*}
+		\tx_k = x_k&=\underset{x\in {\R^n}}\argmin  \left\lbrace \ell_f(x;x_{k-1}) +\frac{\mu}{2}\|x-x_{k-1}\|^2 +\frac{1}{2\lambda_k}\|x- x_{k-1} \|^2 \right\rbrace \\
+		&= x_{k-1} - \frac{\lambda_k}{1+\lambda_k \mu} \nabla f(x_{k-1});
+	\end{align*}
+	\item[(2)] the extragradient method: approximating $f$ by $\ell_f(x;x_{k-1})$ and $\ell_f(x;\tx_k)$, then
+	\begin{align*}
+		 \tx_k&= \underset{x\in {\R^n}}\argmin  \left\lbrace \ell_f(x;x_{k-1}) +\frac{1}{2\lambda_k}\|x- x_{k-1} \|^2 \right\rbrace = x_{k-1} - \lambda_k \nabla f(x_{k-1}), \\
+		x_k&= \underset{x\in {\R^n}}\argmin  \left\lbrace \ell_f(x;\tx_k) +\frac{1}{2\lambda_k}\|x- x_{k-1} \|^2 \right\rbrace = x_{k-1} - \lambda_k \nabla f(\tx_k);
+	\end{align*}
+	\item[(3)] Newton's method: if $f$ is twice differentiable, approximating $f$ by 
+	\[
+	q_f(x;x_{k-1}) = \ell_f(x;x_{k-1}) +\frac{1}{2}\|x-x_{k-1}\|_{\nabla^2 f(x_{k-1})}^2
+	\] 
+	and removing the quadratic term form \eqref{eq:PG}, then
+	\begin{align*}
+	x_k=\underset{x\in {\R^n}}\argmin q_f(x;x_{k-1}) = x_{k-1} - \left[\nabla^2 f(x_{k-1})\right]^{-1} \nabla f(x_{k-1});
+	\end{align*}
+	\item[(4)] regularized Newton's method: if $f$ is twice differentiable, approximating $f$ by $q_f(x;x_{k-1}) $, then
+	\begin{align*}
+		x_k&=\underset{x\in {\R^n}}\argmin \left\{ q_f(x;x_{k-1}) +\frac{1}{2\lambda_k}\|x- x_{k-1} \|^2 \right\} \\
+		&= x_{k-1} - \left[\nabla^2 f(x_{k-1}) + \frac{1}{\lambda_k} I\right]^{-1} \nabla f(x_{k-1}) \\
+		&= x_{k-1} - \left[\lambda_k \nabla^2 f(x_{k-1}) + I\right]^{-1} \lambda_k \nabla f(x_{k-1});
+	\end{align*}
+	if we consider $\phi=f+h$, then the regularized Newton's method generalizes to the proximal Newton's method;
+	\item[(5)] Newton proximal extragradient: if $f$ is twice differentiable, approximating $f$ by $q_f(x;x_{k-1}) $ and $\ell_f(x;\tx_k)$, then
+	\begin{align*}
+		\tx_k&=\underset{x\in {\R^n}}\argmin \left\{ q_f(x;x_{k-1}) +\frac{1}{2\lambda_k}\|x- x_{k-1} \|^2 \right\} 
+		= x_{k-1} - \left[\lambda_k \nabla^2 f(x_{k-1}) + I\right]^{-1} \lambda_k \nabla f(x_{k-1}), \\
+		x_k&= \underset{x\in {\R^n}}\argmin  \left\lbrace \ell_f(x;\tx_k) +\frac{1}{2\lambda_k}\|x- x_{k-1} \|^2 \right\rbrace = x_{k-1} - \lambda_k \nabla f(\tx_k);
+	\end{align*}
+	if we consider $\phi=f+h$, then the regularized Newton's method generalizes to the proximal Newton's method;
+	\item[(6)] quasi Newton proximal extragradient: if $f$ is twice differentiable and $\mu$-strongly convex, approximating $f$ by 
+	\[
+	\tilde q_f(x;x_{k-1}) = \ell_f(x;x_{k-1}) +\frac{1}{2}\|x-x_{k-1}\|_{B_k}^2
+	\]
+	and $\ell_f(x;\tx_k)+\frac{\mu}{2}\|x-x_{k-1}\|^2$, then
+	\begin{align*}
+		\tx_k&=\underset{x\in {\R^n}}\argmin \left\{ \tilde q_f(x;x_{k-1}) +\frac{1}{2\lambda_k}\|x- x_{k-1} \|^2 \right\} \\
+		&= x_{k-1} - \left[\lambda_k B_k + I\right]^{-1} \lambda_k \nabla f(x_{k-1}), \\
+		x_k&= \underset{x\in {\R^n}}\argmin  \left\lbrace \ell_f(x;\tx_k) +\frac{\mu}{2}\|x-x_{k-1}\|^2 +\frac{1}{2\lambda_k}\|x- x_{k-1} \|^2 \right\rbrace \\
+		&= \frac{1}{1+\lambda_k \mu} [x_{k-1} - \lambda_k \nabla f(\tx_k)] + \frac{\lambda_k \mu}{1+\lambda_k \mu}.
+	\end{align*}
+\end{itemize}
+
+\section{Quasi Newton proximal extragradient}
+
+Consider $\min_{x \in \R^n} f(x)$ where $f$ is closed, convex, $\mu$-strongly convex and $L_1$-smooth, and assume that $\nabla^2 f$ is $L_2$-Lipschitz continuous, i.e.,
+\[
+\|\nabla^2 f(x) - \nabla^2 f(y)\| \le L_2 \|x-y\|, \quad \forall x,y \in \R^n.
+\]
+
+\begin{algorithm}[H]
+	\caption{Quasi Newton proximal extragradient}
+	\begin{algorithmic} \label{alg:QNPE}
+		\STATE \textbf{Input:} Initial point $x_0\in \R^n$, scalars $\alpha_1 \in[0, 1)$, $\alpha_2 \in (0,1)$ satisfying $\alpha_1+\alpha_2 <1$
+		\FOR{$k \ge 1$}
+		\STATE Step 1. Given $B_k$ and $x_{k-1}$, find the stepsize $\lambda_k$ and $\tx_k$ such that
+		\begin{align}
+			\|\tx_k - x_{k-1} + \lambda_k \left(\nabla f(x_{k-1}) + B_k(\tx_k - x_{k-1}) \right)\| &\le \alpha_1 \|\tx_k - x_{k-1}\|, \label{ineq:req1} \\
+			\lambda_k \|\nabla f(\tx_k) - \nabla f(x_{k-1}) - B_k (\tx_k - x_{k-1})\| &\le \alpha_2 \|\tx_k - x_{k-1}\|; \label{ineq:req2}
+		\end{align}
+		\STATE Step 2. Set 
+		\begin{equation}\label{eq:xk}
+			x_k= \frac{1}{1+\lambda_k \mu} [x_{k-1} - \lambda_k \nabla f(\tx_k)] + \frac{\lambda_k \mu}{1+\lambda_k \mu} \tx_k;
+		\end{equation}
+		\STATE Step 3. Update $B_{k+1}$ using a subroutine.
+		\ENDFOR
+	\end{algorithmic}
+\end{algorithm}
+
+
+\begin{proposition}\label{prop}
+	Let $\{x_k\}$ be the iterates generated by Algorithm \ref{alg:QNPE} then we have for every $k\ge 1$,
+	\begin{equation}\label{ineq:goal1}
+		\|x_k-x_*\|^2 \le  \frac{\|x_{k-1}-x_*\|^2}{1+\lambda_k \mu}.
+	\end{equation}
+\end{proposition}
+
+\begin{proof}
+	To begin with, using the triangle inequality and conditions \eqref{ineq:req1} and \eqref{ineq:req2}, we have
+	\begin{align}
+		& \|\tx_k - x_{k-1} + \lambda_k \nabla f(\tx_k)\| \nonumber \\
+		\le & \|\tx_k - x_{k-1} + \lambda_k \left(\nabla f(x_{k-1}) + B_k(\tx_k - x_{k-1}) \right)\| + \lambda_k \|\nabla f(\tx_k) - \nabla f(x_{k-1}) - B_k (\tx_k - x_{k-1})\| \nonumber \\
+		\le & (\alpha_1 + \alpha_2) \|\tx_k - x_{k-1}\| = \alpha \|\tx_k - x_{k-1}\|. \label{ineq:bd}
+	\end{align}
+	It is easy to observe that
+	\begin{equation}\label{eq:three}
+		\inner{x_{k-1} - \tx_k}{\tx_k - x} = \frac12 \|x_{k-1} - x\|^2 - \frac12 \|x_{k-1} - \tx_k\|^2 - \frac12 \|\tx_k - x\|^2.
+	\end{equation}
+	Using the Cauchy-Schwarz inequality and \eqref{ineq:bd} and \eqref{eq:three}, we have for every $x\in \R^n$,
+	\begin{align}
+		\lambda_k\inner{\nabla f(\tx_k)}{\tx_k - x} & = \inner{\tx_k - x_{k-1} + \lambda_k \nabla f(\tx_k)}{\tx_k - x} + \inner{x_{k-1} - \tx_k}{\tx_k - x} \nonumber \\
+		&\le \|\tx_k - x_{k-1} + \lambda_k \nabla f(\tx_k)\| \|\tx_k - x\| + \inner{x_{k-1} - \tx_k}{\tx_k - x} \nonumber \\
+		&\le \alpha \|\tx_k - x_{k-1}\| \|\tx_k - x\| + \frac12 \|x_{k-1} - x\|^2 - \frac12 \|x_{k-1} - \tx_k\|^2 - \frac12 \|\tx_k - x\|^2 \nonumber \\
+		&\le \frac12 \|x_{k-1} - x\|^2 - \frac{1-\alpha}2 \|x_{k-1} - \tx_k\|^2 - \frac{1-\alpha}2 \|\tx_k - x\|^2. \label{ineq:one}
+	\end{align}
+	It follows from \eqref{eq:xk} that for every $x\in \R^n$,
+	\begin{align}
+		&\lambda_k\inner{\nabla f(\tx_k)}{x_k - x} = \inner{x_{k-1} - x_k}{x_k - x} + \lambda_k \mu \inner{\tx_k - x_k}{x_k - x} \nonumber \\
+		=& \frac12\|x_{k-1} - x\|^2 - \frac12 \|x_{k-1} - x_k\|^2 - \frac{1+\lambda_k \mu}{2} \|x_k - x\|^2 + \frac{\lambda_k \mu}{2} \|\tx_k - x\|^2 - \frac{\lambda_k \mu}{2} \|\tx_k - x_k\|^2. \label{eq:obs}
+	\end{align}
+	Combining \eqref{ineq:one} with $x=x_k$ and \eqref{eq:obs} with $x=x_*$, we obtain
+	\begin{align}
+		\lambda_k\inner{\nabla f(\tx_k)}{\tx_k - x_*} & = \lambda_k\inner{\nabla f(\tx_k)}{\tx_k - x_k} + \lambda_k\inner{\nabla f(\tx_k)}{x_k - x_*} \nonumber \\ 
+		&\le - \frac{1-\alpha}2 \|x_{k-1} - \tx_k\|^2 +  \frac12\|x_{k-1} - x_*\|^2 - \frac{1+\lambda_k \mu}{2} \|x_k - x_*\|^2 \nonumber \\
+		&  + \frac{\lambda_k \mu}{2} \|\tx_k - x_*\|^2 - \left(\frac{1-\alpha}2 + \frac{\lambda_k \mu}{2}\right) \|\tx_k - x_k\|^2. \label{ineq:sum}
+	\end{align}
+	Since $f$ is $\mu$-strongly convex, it follows from Lemma 4 of Lecture 3 that
+	\[
+	\inner{\nabla f(\tx_k)}{\tx_k - x_*} = \inner{\nabla f(\tx_k) - \nabla f(x_*)}{\tx_k - x_*} \ge \mu \|\tx_k -x_*\|^2.
+	\]
+	Applying the above inequality to the left-hand side of \eqref{ineq:sum}, we have
+	\begin{align*}
+		\frac{1+\lambda_k \mu}{2} \|x_k - x_*\|^2 & \le \frac12\|x_{k-1} - x_*\|^2 - \frac{1-\alpha}2 \|x_{k-1} - \tx_k\|^2 - \left(\frac{1-\alpha}2 + \frac{\lambda_k \mu}{2}\right) \|\tx_k - x_k\|^2 \\
+		& \le \frac12\|x_{k-1} - x_*\|^2 - \frac{1-\alpha}2 \|x_{k-1} - \tx_k\|^2.
+	\end{align*}
+	Hence, \eqref{ineq:goal1} immediately follows.
+\end{proof}
+
+\begin{lemma}\label{lem:lam}
+	For every $k \ge 1$, $\lambda_k \ge 1/(8 L_1)$.
+\end{lemma}
+
+\begin{theorem}
+	Under mild conditions, we have for every $k\ge 1$
+	\begin{itemize}
+		\item[(a)] linear convergence
+		\[
+		\frac{\|x_k-x_*\|}{\|x_{k-1} - x_*\|} \le \left(1+\frac{\mu}{8L_1}\right)^{-1};
+		\]
+		\item[(b)] superlinear convergence
+		\[
+		\lim_{k\to \infty}\frac{\|x_k-x_*\|}{\|x_{k-1} - x_*\|} =0;
+		\]
+		moreover, for every $k\ge 1$
+		\[
+		\frac{\|x_k-x_*\|}{\|x_0 - x_*\|} \le\left(1+ \frac{3}{16}\mu \sqrt{\frac{k}{L_1^2 + 36 \|B_0-\nabla^2 f(x_*)\|^2 + \left(27+ \frac{32L_1}{\mu}\right) L_2^2\|x_0-x_*\|^2}} \right)^{-k}.
+		\]
+	\end{itemize}
+\end{theorem}
+
+
+\begin{proof}
+	(a) This case immediately follows from Proposition \ref{prop} and Lemma \ref{lem:lam}.
+	
+	(b) Noting that $x\mapsto \log(1+x^{-1})$ is convex, using the Jensen's inequality and the Cauchy-Schwarz inequality, we have
+	\[
+	\frac{\|x_k-x_*\|}{\|x_0 - x_*\|} \le \prod_{i=1}^k \frac{\|x_i-x_*\|}{\|x_{i-1} - x_*\|} \le \prod_{i=1}^k  \frac{1}{1+\lambda_i \mu} \le \left(1+\mu \sqrt{\frac{k}{\sum_{i=1}^k 1/\lambda_i^2}}\right)^{-k}.
+	\]
+	To obtain the superlinear convergence of QNPE, it suffices to bound $\sum_{i=1}^k 1/\lambda_i^2$.
+	A technical result shows that
+	\[
+	\sum_{i=1}^k \frac{1}{\lambda_i^2} \leq \frac{1}{\left(1-\beta^2\right) \sigma_0^2}+\frac{1}{\left(1-\beta^2\right) \alpha_2^2 \beta^2} \sum_{i \in \mathcal{B}} \frac{\left\|y_i-B_i s_i\right\|^2}{\left\|s_i\right\|^2},
+	\]
+	where $y_i = \nabla f(\tx_i) - \nabla f(x_{k-1})$ and $s_i = \tx_i - x_{i-1}$.
+	Indeed, defining the loss function at iteration $k$
+	\[
+	\ell_k(B) = \begin{cases}0, & \text { if } k \notin B \\ \frac{\left\|y_k-B s_k\right\|^2}{2\left\|s_k\right\|^2}, & \text { otherwise, }\end{cases}
+	\]
+	then the process of finding $B_{k+1}$ can be viewed as an online optimization problem. Hence, the subroutine step 3 can be any online optimization method, e.g., FTRL.
+	The bound on $\sum_{i=1}^k 1/\lambda_i^2$ is controlled by the regret bound of FTRL. We skipped the details here and recommend the interested readers to refer to the paper ``Online Learning Guided Curvature Approximation: A Quasi-Newton Method with Global Non-Asymptotic Superlinear Convergence".
+\end{proof}
+
+\end{document}
