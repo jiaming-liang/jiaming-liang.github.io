@@ -43,7 +43,7 @@ Email: firstname DOT lastname AT rochester DOT edu \n
 == Short Bio 
 Jiaming is an assistant professor in Data Science and Computer Science at the University of Rochester. He was a postdoctoral researcher at Yale CS department, under the supervision of [http://www.cs.yale.edu/homes/wibisono/ Andre Wibisono].
 #He is also a tenure-track assistant professor (on leave) in the [https://sds.cuhk.edu.cn/en School of Data Science] at The Chinese University of Hong Kong, Shenzhen. 
-He obtained Ph.D. in Operations Research at Georgia Tech, advised by [https://www2.isye.gatech.edu/~monteiro/ Renato Monteiro]. 
+He obtained Ph.D. in Operations Research at Georgia Tech, advised by [https://www2.isye.gatech.edu/~monteiro/ Renato Monteiro].
 #He holds a master's degree in computational science and engineering. 
 #As an undergrad, he studied ocean engineering and applied math in Shanghai Jiao Tong University.
 # where he worked on applications of the [https://en.wikipedia.org/wiki/Homotopy_analysis_method homotopy analysis method] with [http://naoce.sjtu.edu.cn/en/teachershow.aspx?info_lb=20&info_id=93&flag=2 Prof. Zhiliang Lin].
@@ -82,6 +82,9 @@ His primary research goal is to design, analyze and implement fast algorithms fo
 #- [http://ideas.gatech.edu/ideas-triad-research-scholarships-phd-students-and-postdocs IDEaS-TRIAD Research Scholarship], Georgia Tech. The Institute for Data Engineering and Science (IDEaS) and Transdisciplinary Research Institute for Advancing Data Science (TRIAD) provide scholarships to support Ph.D. students or post-doctoral researchers in high-impact cross-disciplinary data science related areas.
 #- A new paper [https://arxiv.org/abs/2003.11457 "A proximal bundle variant with optimal iteration-complexity for a large range of prox stepsizes"].
 #- [http://arc.gatech.edu/hg/item/630228 ARC-TRIAD Fellowship], Georgia Tech. Algorithms & Randomness Center supports competitive research projects put forth by graduate students. 
+
+== Support 
+Jiaming's research has been supported by an AFOSR award and a seed funding from [https://www.hajim.rochester.edu/dsc/research/funding.html GIDS-AI].
 
 
 #== Education 
