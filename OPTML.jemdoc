@@ -1,5 +1,5 @@
 # jemdoc: menu{MENU}{teaching.html}
-= Optimization for Machine Learning, Fall 2024
+= Optimization for Machine Learning, Fall 2025
 
 This course primarily focuses on algorithms for large-scale optimization problems arising in machine learning and data science applications. The first part will cover various first-order methods including gradient and subgradient methods, mirror descent, proximal gradient method, accelerated gradient method, Frank-Wolfe method, and dual methods. The second part will survey topics in machine learning from an optimization perspective, e.g., stochastic optimization, distributionally robust optimization, online learning, and reinforcement learning.
 
@@ -11,20 +11,20 @@ This course primarily focuses on algorithms for large-scale optimization problem
 
 - Instructor: [https://jiaming-liang.github.io/ Jiaming Liang]
 
-- Teaching Assistant: Lin Zang
+- Teaching Assistant: Matthew Burns
 
 - Meeting Information: 9:40-10:55 am, Tuesday/Thursday, Hylan Building 203
 
 - Office Hours
 -- 4:00-5:00 pm, Wednesday, Wegmans Hall 2403 (Jiaming Liang)
--- 4:00-5:00 pm, Friday, Wegmans Hall 1219 (Lin Zang)
+-- 3:00-4:00 pm, Tuesday, Wegmans Hall 1219 (Matthew Burns)
 
 - Textbooks
 -- Amir Beck. /First-order methods in optimization/. SIAM, 2017.
 -- Yurii Nesterov. /Lectures on convex optimization/. Springer, 2018.
 
 - Recommended Readings
--- Fatma Kilinc-Karzan and Arkadi Nemirovski. /Mathematical Essentials for Convex Optimization/. Cambridge University Press, 2024+.
+-- Fatma Kilinc-Karzan and Arkadi Nemirovski. /Mathematical Essentials for Convex Optimization/. Cambridge University Press, 2025.
 -- Guanghui Lan. /First-order and Stochastic Optimization Methods for Machine Learning/. Springer, 2020.
 -- Benjamin Recht and Stephen Wright. /Optimization for Data Analysis/. Cambridge University Press, 2022.
 -- Suvrit Sra, Sebastian Nowozin, and Stephen Wright, eds. /Optimization for Machine Learning/. MIT Press, 2011.
@@ -33,28 +33,28 @@ This course primarily focuses on algorithms for large-scale optimization problem
 
 - Introduction
 -- Applications in ML [./teaching/OPTML/leture_1_introduction.pptx \[slides\]]\n
--- Convexity and complexity [./teaching/OPTML/Lec2_Convexity_and_Complexity.pdf \[notes\]]\n
+#-- Convexity and complexity [./teaching/OPTML/Lec2_Convexity_and_Complexity.pdf \[notes\]]\n
 
-- First-order methods I: basic concepts
--- Gradient method [./teaching/OPTML/Lec3_Gradient_Method.pdf \[notes\]]\n
--- Subgradient method [./teaching/OPTML/Lec4_Subgradient_Method.pdf \[notes\]]\n
--- Mirror descent [./teaching/OPTML/Lec5_Mirror_Descent.pdf \[notes\]]\n
--- Proximal gradient method [./teaching/OPTML/Lec6_Proximal_Gradient.pdf \[notes\]]\n
--- Accelerated gradient method [./teaching/OPTML/Lec7_Accelerated_Gradient.pdf \[notes\]]\n
--- Frank-Wolfe method [./teaching/OPTML/Lec8_Frank-Wolfe_Method.pdf \[notes\]]\n
+#- First-order methods I: basic concepts
+#-- Gradient method [./teaching/OPTML/Lec3_Gradient_Method.pdf \[notes\]]\n
+#-- Subgradient method [./teaching/OPTML/Lec4_Subgradient_Method.pdf \[notes\]]\n
+#-- Mirror descent [./teaching/OPTML/Lec5_Mirror_Descent.pdf \[notes\]]\n
+#-- Proximal gradient method [./teaching/OPTML/Lec6_Proximal_Gradient.pdf \[notes\]]\n
+#-- Accelerated gradient method [./teaching/OPTML/Lec7_Accelerated_Gradient.pdf \[notes\]]\n
+#-- Frank-Wolfe method [./teaching/OPTML/Lec8_Frank-Wolfe_Method.pdf \[notes\]]\n
 
-- First-order methods II: advanced topics
--- Dual methods [./teaching/OPTML/Lec9_Dual_Methods.pdf \[notes\]]\n
--- Stochastic approximation [./teaching/OPTML/Lec10_Stochastic_Approximation.pdf \[notes\]]\n
--- Smoothing techniques [./teaching/OPTML/Lec11_Smoothing_Techniques.pdf \[notes\]]\n
+#- First-order methods II: advanced topics
+#-- Dual methods [./teaching/OPTML/Lec9_Dual_Methods.pdf \[notes\]]\n
+#-- Stochastic approximation [./teaching/OPTML/Lec10_Stochastic_Approximation.pdf \[notes\]]\n
+#-- Smoothing techniques [./teaching/OPTML/Lec11_Smoothing_Techniques.pdf \[notes\]]\n
 #-- Augmented Lagrangian [./teaching/OPTML/Lec10_Augmented_Lagrangian.pdf \[notes\]]\n
 #-- Optimization in relative scale [./teaching/OPTML/Lec12_Optimization_in_Relative_Scale.pdf \[notes\]]\n
 #-- Randomized block coordinate descent [./teaching/OPTML/Lec13_Randomized_Block_Coordinate_Descent.pdf \[notes\]]\n
 #-- Universal method
 
-- Selected topics in machine learning
--- Online Optimization [./teaching/OPTML/Lec12_Online_Optimization.pdf \[notes\]]\n
--- Quasi-Newton methods [./teaching/OPTML/Lec13_Quasi-Newton_Methods.pdf \[notes\]]\n
+#- Selected topics in machine learning
+#-- Online Optimization [./teaching/OPTML/Lec12_Online_Optimization.pdf \[notes\]]\n
+#-- Quasi-Newton methods [./teaching/OPTML/Lec13_Quasi-Newton_Methods.pdf \[notes\]]\n
 #-- Distributed optimization
 #-- Manifold optimization
 #-- Reinforcement learning [./teaching/OPTML/Lec16_Reinforcement_Learning.pdf \[notes\]]\n
