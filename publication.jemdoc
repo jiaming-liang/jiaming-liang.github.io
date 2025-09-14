@@ -26,6 +26,9 @@
 -- Jiaming Liang and Renato D.C. Monteiro, arXiv:1811.11378, 2018
 
 == Journal Papers
+- Client-only Distributed Markov Chain Monte Carlo Sampling over a Network [https://openreview.net/pdf?id=1bZ2rLfKwu \[pdf\]] \n
+-- Bo Yuan, Jiaojiao Fan, Jiaming Liang, and Yongxin Chen
+-- *Transactions on Machine Learning Research*, 2025
 - A single cut proximal bundle method for stochastic convex composite optimization [https://link.springer.com/article/10.1007/s10107-023-02035-2 \[pdf\]] \n
 -- Jiaming Liang, Vincent Guigues, and Renato D.C. Monteiro
 -- *Mathematical Programming*, 208(1):173-208, 2024.
