@@ -55,6 +55,7 @@ His primary research goal is to design, analyze and implement fast algorithms fo
 - Sampling Algorithms
 #- Foundation of Data Science
 == News 
+- A new paper [https://arxiv.org/abs/2510.02983 "Oracle-based Uniform Sampling from Convex Bodies"].
 - A new paper [https://arxiv.org/abs/2505.17463 "Multi-cut stochastic approximation methods for solving stochastic convex composite optimization"].
 - The paper [https://arxiv.org/abs/2402.17067 "Characterizing Dependence of Samples along the Langevin Dynamics and Algorithms via Contraction of $\Phi$-Mutual Information"] has been accepted by COLT 2025.
 - A new paper [https://arxiv.org/abs/2501.04165 "Unifying restart accelerated gradient and proximal bundle methods"].
