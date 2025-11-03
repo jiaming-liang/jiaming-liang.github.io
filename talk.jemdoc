@@ -1,6 +1,10 @@
 # jemdoc: menu{MENU}{talk.html}
 = Talks
 
+- Primal-dual Proximal Bundle and Conditional Gradient Methods for Convex Problems [./talk/primal-dual_spp.pdf \[slides\]] \n
+AFOSR Mathematical Optimization Annual Review Meeting, Arlington, VA, September 2025 \n
+INFORMS Annual meeting, Atlanta, GA, October 2025 \n
+
 - Universal subgradient and proximal bundle methods for convex and strongly convex hybrid composite optimization [./talk/universal.pdf \[slides\]] \n
 International Conference on Continuous Optimization, Los Angeles, CA, July 2025 \n
 SIAM-NNP Annual Meeting, Rochester, NY, November 2024 \n
