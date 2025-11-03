@@ -10,7 +10,7 @@ Assistant Professor \n
 #Ph.D. in Operations Research \n 
 #Ph.D. Student in Operations Research \n 
 #Department of Computer Science \n
-Goergen Institute for Data Science & Department of Computer Science\n
+Goergen Institute for Data Science and Artificial Intelligence (GIDS-AI) & Department of Computer Science\n
 University of Rochester \n
 #Yale University \n
 #\/ The Chinese University of Hong Kong, Shenzhen\n
@@ -55,15 +55,17 @@ His primary research goal is to design, analyze and implement fast algorithms fo
 - Sampling Algorithms
 #- Foundation of Data Science
 == News 
+- A new paper [https://arxiv.org/abs/2510.27117 "GFORS: GPU-Accelerated First-Order Method with Randomized Sampling for Binary Integer Programs"].
 - A new paper [https://arxiv.org/abs/2510.02983 "Oracle-based Uniform Sampling from Convex Bodies"].
+- Received a research grant from Air Force Office of Scientific Research (AFOSR) for 2025-2028.
 - A new paper [https://arxiv.org/abs/2505.17463 "Multi-cut stochastic approximation methods for solving stochastic convex composite optimization"].
 - The paper [https://arxiv.org/abs/2402.17067 "Characterizing Dependence of Samples along the Langevin Dynamics and Algorithms via Contraction of $\Phi$-Mutual Information"] has been accepted by COLT 2025.
 - A new paper [https://arxiv.org/abs/2501.04165 "Unifying restart accelerated gradient and proximal bundle methods"].
 - A new paper [https://arxiv.org/abs/2412.00585 "Primal-dual proximal bundle and conditional gradient methods for convex problems"].
-- A new paper [https://arxiv.org/abs/2407.10073 "Universal subgradient and proximal bundle methods for convex and strongly convex hybrid composite optimization"].
-- A new paper [https://arxiv.org/abs/2404.02239 "Proximal Oracles for Optimization and Sampling"].
-- A new paper [https://arxiv.org/abs/2402.08992 "Variance Reduction and Low Sample Complexity in Stochastic Optimization via Proximal Point Method"].
-- A new paper [https://arxiv.org/abs/2303.14896 "Proximal bundle methods for hybrid weakly convex composite optimization problems"].
+#- A new paper [https://arxiv.org/abs/2407.10073 "Universal subgradient and proximal bundle methods for convex and strongly convex hybrid composite optimization"].
+#- A new paper [https://arxiv.org/abs/2404.02239 "Proximal Oracles for Optimization and Sampling"].
+#- A new paper [https://arxiv.org/abs/2402.08992 "Variance Reduction and Low Sample Complexity in Stochastic Optimization via Proximal Point Method"].
+#- A new paper [https://arxiv.org/abs/2303.14896 "Proximal bundle methods for hybrid weakly convex composite optimization problems"].
 
 #- The paper [https://proceedings.mlr.press/v195/yuan23a.html "On a Class of Gibbs Sampling over Networks"] has been published in Conference on Learning Theory (COLT) 2023.
 #- The paper [https://openreview.net/forum?id=CkXOwlhf27 "A Proximal Algorithm for Sampling"] has been published in Transactions on Machine Learning Research.
