@@ -41,11 +41,11 @@ This course primarily focuses on algorithms for large-scale optimization problem
 -- Mirror descent [./teaching/OPTML/Lec5_Mirror_Descent.pdf \[notes\]]\n
 -- Proximal gradient method [./teaching/OPTML/Lec6_Proximal_Gradient.pdf \[notes\]]\n
 -- Accelerated gradient method [./teaching/OPTML/Lec7_Accelerated_Gradient.pdf \[notes\]]\n
-#-- Frank-Wolfe method [./teaching/OPTML/Lec8_Frank-Wolfe_Method.pdf \[notes\]]\n
+-- Frank-Wolfe method [./teaching/OPTML/Lec8_Frank-Wolfe_Method.pdf \[notes\]]\n
 
-#- First-order methods II: advanced topics
-#-- Dual methods [./teaching/OPTML/Lec9_Dual_Methods.pdf \[notes\]]\n
-#-- Stochastic approximation [./teaching/OPTML/Lec10_Stochastic_Approximation.pdf \[notes\]]\n
+- First-order methods II: advanced topics
+-- Dual methods [./teaching/OPTML/Lec9_Dual_Methods.pdf \[notes\]]\n
+-- Stochastic approximation [./teaching/OPTML/Lec10_Stochastic_Approximation.pdf \[notes\]]\n
 #-- Smoothing techniques [./teaching/OPTML/Lec11_Smoothing_Techniques.pdf \[notes\]]\n
 #-- Augmented Lagrangian [./teaching/OPTML/Lec10_Augmented_Lagrangian.pdf \[notes\]]\n
 #-- Optimization in relative scale [./teaching/OPTML/Lec12_Optimization_in_Relative_Scale.pdf \[notes\]]\n
