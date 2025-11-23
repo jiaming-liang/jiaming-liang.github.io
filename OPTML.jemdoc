@@ -52,12 +52,12 @@ This course primarily focuses on algorithms for large-scale optimization problem
 #-- Randomized block coordinate descent [./teaching/OPTML/Lec13_Randomized_Block_Coordinate_Descent.pdf \[notes\]]\n
 #-- Universal method
 
-#- Selected topics in machine learning
-#-- Online Optimization [./teaching/OPTML/Lec12_Online_Optimization.pdf \[notes\]]\n
+- Selected topics in machine learning
+-- Online Optimization and Games [./teaching/OPTML/Lec11_Online_Optimization_and_Games.pdf \[notes\]]\n
+-- Reinforcement learning [./teaching/OPTML/Lec12_Reinforcement_Learning.pdf \[notes\]]\n
 #-- Quasi-Newton methods [./teaching/OPTML/Lec13_Quasi-Newton_Methods.pdf \[notes\]]\n
 #-- Distributed optimization
 #-- Manifold optimization
-#-- Reinforcement learning [./teaching/OPTML/Lec16_Reinforcement_Learning.pdf \[notes\]]\n
 
 #- Beyond first-order methods
 #-- Second and higher-order methods
