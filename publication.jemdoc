@@ -13,9 +13,6 @@
 - Unifying restart accelerated gradient and proximal bundle methods
  [https://arxiv.org/pdf/2501.04165 \[pdf\]] \n
 -- Jiaming Liang, arXiv:2501.04165, 2025
-- Primal-dual proximal bundle and conditional gradient methods for convex problems
- [https://arxiv.org/pdf/2412.00585 \[pdf\]] \n
--- Jiaming Liang, arXiv:2412.00585, 2024
 - Universal subgradient and proximal bundle methods for convex and strongly convex hybrid composite optimization [https://arxiv.org/pdf/2407.10073.pdf \[pdf\]] \n
 -- Vincent Guigues, Jiaming Liang, and Renato D.C. Monteiro, arXiv:2407.10073, 2024
 - Proximal Oracles for Optimization and Sampling [https://arxiv.org/pdf/2404.02239.pdf \[pdf\]] \n
@@ -30,6 +27,10 @@
 -- Jiaming Liang and Renato D.C. Monteiro, arXiv:1811.11378, 2018
 
 == Journal Papers
+- Primal-dual proximal bundle and conditional gradient methods for convex problems
+ [https://arxiv.org/pdf/2412.00585 \[pdf\]] \n
+-- Jiaming Liang
+-- *Mathematical Programming*, 2025
 - Client-only Distributed Markov Chain Monte Carlo Sampling over a Network [https://openreview.net/pdf?id=1bZ2rLfKwu \[pdf\]] \n
 -- Bo Yuan, Jiaojiao Fan, Jiaming Liang, and Yongxin Chen
 -- *Transactions on Machine Learning Research*, 2025
