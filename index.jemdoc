@@ -55,13 +55,13 @@ His primary research goal is to design, analyze and implement fast algorithms fo
 - Sampling Algorithms
 #- Foundation of Data Science
 == News 
+- The paper [https://arxiv.org/abs/2412.00585 "Primal-dual proximal bundle and conditional gradient methods for convex problems"] has been accepted by Mathematicalf Programming.
 - A new paper [https://arxiv.org/abs/2510.27117 "GFORS: GPU-Accelerated First-Order Method with Randomized Sampling for Binary Integer Programs"].
 - A new paper [https://arxiv.org/abs/2510.02983 "Oracle-based Uniform Sampling from Convex Bodies"].
 - Received a research grant from Air Force Office of Scientific Research (AFOSR) for 2025-2028.
 - A new paper [https://arxiv.org/abs/2505.17463 "Multi-cut stochastic approximation methods for solving stochastic convex composite optimization"].
 - The paper [https://arxiv.org/abs/2402.17067 "Characterizing Dependence of Samples along the Langevin Dynamics and Algorithms via Contraction of $\Phi$-Mutual Information"] has been accepted by COLT 2025.
 - A new paper [https://arxiv.org/abs/2501.04165 "Unifying restart accelerated gradient and proximal bundle methods"].
-- A new paper [https://arxiv.org/abs/2412.00585 "Primal-dual proximal bundle and conditional gradient methods for convex problems"].
 #- A new paper [https://arxiv.org/abs/2407.10073 "Universal subgradient and proximal bundle methods for convex and strongly convex hybrid composite optimization"].
 #- A new paper [https://arxiv.org/abs/2404.02239 "Proximal Oracles for Optimization and Sampling"].
 #- A new paper [https://arxiv.org/abs/2402.08992 "Variance Reduction and Low Sample Complexity in Stochastic Optimization via Proximal Point Method"].
