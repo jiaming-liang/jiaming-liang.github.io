@@ -53,7 +53,7 @@ This course primarily focuses on algorithms for large-scale optimization problem
 #-- Universal method
 
 - Selected topics in machine learning
--- Online Optimization and Games [./teaching/OPTML/Lec11_Online_Optimization_and_Games.pdf \[notes\]]\n
+-- Online optimization and games [./teaching/OPTML/Lec11_Online_Optimization_and_Games.pdf \[notes\]]\n
 -- Reinforcement learning [./teaching/OPTML/Lec12_Reinforcement_Learning.pdf \[notes\]]\n
 #-- Quasi-Newton methods [./teaching/OPTML/Lec13_Quasi-Newton_Methods.pdf \[notes\]]\n
 #-- Distributed optimization
