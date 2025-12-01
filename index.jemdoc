@@ -55,7 +55,7 @@ His primary research goal is to design, analyze and implement fast algorithms fo
 - Sampling Algorithms
 #- Foundation of Data Science
 == News 
-- The paper [https://arxiv.org/abs/2412.00585 "Primal-dual proximal bundle and conditional gradient methods for convex problems"] has been accepted by Mathematical Programming.
+- The paper [https://link.springer.com/content/pdf/10.1007/s10107-025-02307-z.pdf "Primal-dual proximal bundle and conditional gradient methods for convex problems"] has been published in Mathematical Programming.
 - A new paper [https://arxiv.org/abs/2510.27117 "GFORS: GPU-Accelerated First-Order Method with Randomized Sampling for Binary Integer Programs"].
 - A new paper [https://arxiv.org/abs/2510.02983 "Oracle-based Uniform Sampling from Convex Bodies"].
 - Received a research grant from Air Force Office of Scientific Research (AFOSR) for 2025-2028.
