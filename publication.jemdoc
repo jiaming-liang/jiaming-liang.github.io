@@ -13,8 +13,6 @@
 - Unifying restart accelerated gradient and proximal bundle methods
  [https://arxiv.org/pdf/2501.04165 \[pdf\]] \n
 -- Jiaming Liang, arXiv:2501.04165, 2025
-- Universal subgradient and proximal bundle methods for convex and strongly convex hybrid composite optimization [https://arxiv.org/pdf/2407.10073.pdf \[pdf\]] \n
--- Vincent Guigues, Jiaming Liang, and Renato D.C. Monteiro, arXiv:2407.10073, 2024
 - Proximal Oracles for Optimization and Sampling [https://arxiv.org/pdf/2404.02239.pdf \[pdf\]] \n
 -- Jiaming Liang and Yongxin Chen, arXiv:2404.02239, 2024
 - Variance Reduction and Low Sample Complexity in Stochastic Optimization via Proximal Point Method [https://arxiv.org/pdf/2402.08992.pdf \[pdf\]] \n
@@ -27,6 +25,9 @@
 -- Jiaming Liang and Renato D.C. Monteiro, arXiv:1811.11378, 2018
 
 == Journal Papers
+- Universal subgradient and proximal bundle methods for convex and strongly convex hybrid composite optimization [https://arxiv.org/pdf/2407.10073.pdf \[pdf\]] \n
+-- Vincent Guigues, Jiaming Liang, and Renato D.C. Monteiro
+-- *Journal of Optimization Theory and Applications*
 - Characterizing Dependence of Samples along the Langevin Dynamics and Algorithms via Contraction of $\Phi$-Mutual Information [https://arxiv.org/abs/2402.17067 \[pdf\]] \n
 -- Jiaming Liang, Siddharth Mitra, and Andre Wibisono
 -- *IEEE Transactions on Information Theory*
