@@ -15,8 +15,6 @@
 -- Jiaming Liang, arXiv:2501.04165, 2025
 - Proximal Oracles for Optimization and Sampling [https://arxiv.org/pdf/2404.02239.pdf \[pdf\]] \n
 -- Jiaming Liang and Yongxin Chen, arXiv:2404.02239, 2024
-- Variance Reduction and Low Sample Complexity in Stochastic Optimization via Proximal Point Method [https://arxiv.org/pdf/2402.08992.pdf \[pdf\]] \n
--- Jiaming Liang, arXiv:2402.08992, 2024
 - Proximal bundle methods for hybrid weakly convex composite optimization problems [https://arxiv.org/pdf/2303.14896.pdf \[pdf\]] \n
 -- Jiaming Liang, Renato D.C. Monteiro, and Honghao Zhang, arXiv:2303.14896, 2023
 #-- A Proximal Algorithm for Sampling from Non-convex Potentials [https://arxiv.org/pdf/2205.10188.pdf \[pdf\]] \n
@@ -68,6 +66,9 @@
 -- *Physica Scripta*, 91(1):015201, 2015
 
 == Conference Papers
+- Variance Reduction and Low Sample Complexity in Stochastic Optimization via Proximal Point Method [https://arxiv.org/pdf/2402.08992.pdf \[pdf\]] \n
+-- Jiaming Liang
+-- *2026 Algorithmic Learning Theory (ALT)*
 - Characterizing Dependence of Samples along the Langevin Dynamics and Algorithms via Contraction of $\Phi$-Mutual Information [https://arxiv.org/abs/2402.17067 \[pdf\]] \n
 -- Jiaming Liang, Siddharth Mitra, and Andre Wibisono
 -- *2025 Conference on Learning Theory (COLT)*
