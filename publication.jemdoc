@@ -13,8 +13,6 @@
 - Unifying restart accelerated gradient and proximal bundle methods
  [https://arxiv.org/pdf/2501.04165 \[pdf\]] \n
 -- Jiaming Liang, arXiv:2501.04165, 2025
-- Proximal Oracles for Optimization and Sampling [https://arxiv.org/pdf/2404.02239.pdf \[pdf\]] \n
--- Jiaming Liang and Yongxin Chen, arXiv:2404.02239, 2024
 - Proximal bundle methods for hybrid weakly convex composite optimization problems [https://arxiv.org/pdf/2303.14896.pdf \[pdf\]] \n
 -- Jiaming Liang, Renato D.C. Monteiro, and Honghao Zhang, arXiv:2303.14896, 2023
 #-- A Proximal Algorithm for Sampling from Non-convex Potentials [https://arxiv.org/pdf/2205.10188.pdf \[pdf\]] \n
@@ -23,6 +21,9 @@
 -- Jiaming Liang and Renato D.C. Monteiro, arXiv:1811.11378, 2018
 
 == Journal Papers
+- Proximal Oracles for Optimization and Sampling [https://arxiv.org/pdf/2404.02239.pdf \[pdf\]] \n
+-- Jiaming Liang and Yongxin Chen
+-- *Journal of Optimization Theory and Applications*, 2025
 - Universal subgradient and proximal bundle methods for convex and strongly convex hybrid composite optimization [https://arxiv.org/pdf/2407.10073.pdf \[pdf\]] \n
 -- Vincent Guigues, Jiaming Liang, and Renato D.C. Monteiro
 -- *Journal of Optimization Theory and Applications*, 2025
