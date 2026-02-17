@@ -79,6 +79,9 @@
 
 == Preprints
 
+- Constrained and Composite Sampling via Proximal Sampler
+ [https://arxiv.org/pdf/2602.14478.pdf \[pdf\]] \n
+-- Thanh Dang and Jiaming Liang, arXiv:2602.14478, 2026
 - GFORS: GPU-Accelerated First-Order Method with Randomized Sampling for Binary Integer Programs [https://arxiv.org/pdf/2510.27117.pdf \[pdf\]] \n
 -- Ningji Wei and Jiaming Liang, arXiv:2510.27117, 2025
 - Oracle-based Uniform Sampling from Convex Bodies [https://arxiv.org/pdf/2510.02983.pdf \[pdf\]] \n
