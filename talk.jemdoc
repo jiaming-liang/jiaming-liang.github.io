@@ -1,6 +1,9 @@
 # jemdoc: menu{MENU}{talk.html}
 = Talks
 
+- Uniform, Constrained, and Composite Sampling via Proximal Sampler 
+Department of Mathematics, Florida State University, Tallahassee, FL, February 2026 \n
+
 - Primal-dual Proximal Bundle and Conditional Gradient Methods for Convex Problems [./talk/primal-dual_spp.pdf \[slides\]] \n
 AFOSR Mathematical Optimization Annual Review Meeting, Arlington, VA, September 2025 \n
 INFORMS Annual meeting, Atlanta, GA, October 2025 \n
