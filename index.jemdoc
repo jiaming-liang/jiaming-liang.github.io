@@ -53,11 +53,11 @@ His primary research goal is to design, analyze and implement fast algorithms fo
 - Sampling Algorithms
 #- Foundation of Data Science
 == News
+- The paper [https://trebuchet.public.springernature.app/get_content/cf472184-a871-4670-861c-f6fb10b60e08?utm_source=rct_congratemailt&utm_medium=email&utm_campaign=nonoa_20260218&utm_content=10.1007/s10957-026-02937-z "Proximal Oracles for Optimization and Sampling"] has been published in Journal of Optimization Theory and Applications.
+- The paper [https://trebuchet.public.springernature.app/get_content/99ca41d3-f0bd-47e5-aea9-a0c97272eca9?utm_source=rct_congratemailt&utm_medium=email&utm_campaign=nonoa_20260218&utm_content=10.1007/s10957-025-02927-7 "Universal subgradient and proximal bundle methods for convex and strongly convex hybrid composite optimization"] has been published in Journal of Optimization Theory and Applications.
 - A new paper [https://arxiv.org/abs/2602.14478 "Constrained and Composite Sampling via Proximal Sampler"].
-- The paper [https://arxiv.org/abs/2404.02239 "Proximal Oracles for Optimization and Sampling"] has been accepted by Journal of Optimization Theory and Applications.
 - The paper [https://arxiv.org/abs/2402.08992 "Variance Reduction and Low Sample Complexity in Stochastic Optimization via Proximal Point Method"] has been accepted by Algorithmic Learning Theory 2026.
-- The paper [https://arxiv.org/abs/2407.10073 "Universal subgradient and proximal bundle methods for convex and strongly convex hybrid composite optimization"] has been accepted by Journal of Optimization Theory and Applications.
-- The paper [https://ieeexplore.ieee.org/document/11314867 "Characterizing Dependence of Samples along the Langevin Dynamics and Algorithms via Contraction of $\Phi$-Mutual Information"] has been accepted by IEEE Transactions on Information Theory. 
+- The paper [https://ieeexplore.ieee.org/document/11314867 "Characterizing Dependence of Samples along the Langevin Dynamics and Algorithms via Contraction of $\Phi$-Mutual Information"] has been published in IEEE Transactions on Information Theory. 
 - The paper [https://link.springer.com/content/pdf/10.1007/s10107-025-02307-z.pdf "Primal-dual proximal bundle and conditional gradient methods for convex problems"] has been published in Mathematical Programming.
 - A new paper [https://arxiv.org/abs/2510.27117 "GFORS: GPU-Accelerated First-Order Method with Randomized Sampling for Binary Integer Programs"].
 - A new paper [https://arxiv.org/abs/2510.02983 "Oracle-based Uniform Sampling from Convex Bodies"].
