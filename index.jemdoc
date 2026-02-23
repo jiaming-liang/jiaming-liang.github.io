@@ -53,7 +53,7 @@ His primary research goal is to design, analyze and implement fast algorithms fo
 - Sampling Algorithms
 #- Foundation of Data Science
 == News
-- A new paper [https://arxiv.org/abs/2602.17878 "Improved Analysis of Restarted Accelerated Gradient and Augmented Lagrangian Methods via Inexact Proximal Point"].
+- A new paper [https://arxiv.org/abs/2602.17878 "Improved Analysis of Restarted Accelerated Gradient and Augmented Lagrangian Methods via Inexact Proximal Point Frameworks"].
 - The paper [https://link.springer.com/article/10.1007/s10957-026-02937-z "Proximal Oracles for Optimization and Sampling"] has been published in Journal of Optimization Theory and Applications.
 - The paper [https://link.springer.com/article/10.1007/s10957-025-02927-7 "Universal subgradient and proximal bundle methods for convex and strongly convex hybrid composite optimization"] has been published in Journal of Optimization Theory and Applications.
 - A new paper [https://arxiv.org/abs/2602.14478 "Constrained and Composite Sampling via Proximal Sampler"].
