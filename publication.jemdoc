@@ -79,6 +79,9 @@
 
 == Preprints
 
+- Improved Analysis of Restarted Accelerated Gradient and Augmented Lagrangian Methods via Inexact Proximal Point
+ [https://arxiv.org/pdf/2602.17878.pdf \[pdf\]] \n
+-- Matthew X. Burns and Jiaming Liang, arXiv:2602.17878, 2026
 - Constrained and Composite Sampling via Proximal Sampler
  [https://arxiv.org/pdf/2602.14478.pdf \[pdf\]] \n
 -- Thanh Dang and Jiaming Liang, arXiv:2602.14478, 2026
