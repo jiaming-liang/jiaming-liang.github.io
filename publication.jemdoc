@@ -79,6 +79,9 @@
 
 == Preprints
 
+- Accuracy Certificates for Convex Optimization at Accelerated Rates via Primal-Dual Averaging
+ [https://arxiv.org/pdf/2604.18321.pdf \[pdf\]] \n
+-- Matthew X. Burns and Jiaming Liang, arXiv:2604.18321, 2026
 - Improved Analysis of Restarted Accelerated Gradient and Augmented Lagrangian Methods via Inexact Proximal Point Frameworks
  [https://arxiv.org/pdf/2602.17878.pdf \[pdf\]] \n
 -- Matthew X. Burns and Jiaming Liang, arXiv:2602.17878, 2026
