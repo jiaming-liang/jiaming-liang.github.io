@@ -53,6 +53,7 @@ His primary research goal is to design, analyze and implement fast algorithms fo
 - Sampling Algorithms
 #- Foundation of Data Science
 == News
+- A new paper [https://arxiv.org/abs/2511.11359 "Log-Averaged Mirror Prox for Fast, Large-Scale Optimal Transport in Linear Space"].
 - A new paper [https://arxiv.org/abs/2604.18321 "Accuracy Certificates for Convex Optimization at Accelerated Rates via Primal-Dual Averaging"].
 - A new paper [https://arxiv.org/abs/2602.17878 "Improved Analysis of Restarted Accelerated Gradient and Augmented Lagrangian Methods via Inexact Proximal Point Frameworks"].
 - The paper [https://link.springer.com/article/10.1007/s10957-026-02937-z "Proximal Oracles for Optimization and Sampling"] has been published in Journal of Optimization Theory and Applications.
