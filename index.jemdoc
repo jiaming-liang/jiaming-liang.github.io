@@ -65,7 +65,7 @@ His primary research goal is to design, analyze and implement fast algorithms fo
 - A new paper [https://arxiv.org/abs/2510.27117 "GFORS: GPU-Accelerated First-Order Method with Randomized Sampling for Binary Integer Programs"].
 - A new paper [https://arxiv.org/abs/2510.02983 "Oracle-based Uniform Sampling from Convex Bodies"].
 - Received a research grant from Air Force Office of Scientific Research (AFOSR) for 2025-2028.
-- A new paper [https://arxiv.org/abs/2505.17463 "Multi-cut stochastic approximation methods for solving stochastic convex composite optimization"].
+#- A new paper [https://arxiv.org/abs/2505.17463 "Multi-cut stochastic approximation methods for solving stochastic convex composite optimization"].
 #- A new paper [https://arxiv.org/abs/2501.04165 "Unifying restart accelerated gradient and proximal bundle methods"].
 #- A new paper [https://arxiv.org/abs/2303.14896 "Proximal bundle methods for hybrid weakly convex composite optimization problems"].
 
