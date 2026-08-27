@@ -1,0 +1,38 @@
+# jemdoc: menu{MENU}{teaching.html}
+= Machine Learning, Fall 2026
+
+This course provides an introduction to the mathematical foundations and modern practice of machine learning for computer science students. Topics include supervised learning, regression and classification, support vector machines and kernel methods, unsupervised learning, neural networks and modern deep learning architectures, generative models, diffusion models, and reinforcement learning. The course emphasizes understanding how and why the methods work while keeping the mathematical prerequisites at an undergraduate level.
+
+== Course Information
+
+- [./teaching/ML/syllabus.pdf Syllabus]
+
+- Instructor: [https://jiaming-liang.github.io/ Jiaming Liang]
+
+- Teaching Assistant: Tung Lam Tran
+
+- Meeting Information: 3:25-4:40 pm, Tuesday/Thursday, Gavett Hall Room 206
+
+- Office Hours
+-- 3:00-4:00 pm, Wednesday, Wegmans Hall 2403 (Jiaming Liang)
+-- 4:00-5:00 pm, Monday, Wegmans Hall 4209 (Tung Lam Tran)
+
+- Textbooks
+-- Andreas Lindholm, Niklas Wahlstrom, Fredrik Lindsten, and Thomas B. Schon. /Machine Learning: A First Course for Engineers and Scientists/. Cambridge University Press, 2022.
+-- Simon J. D. Prince. /Understanding Deep Learning/. MIT Press, 2023.
+
+- Recommended Readings
+-- Shai Shalev-Shwartz and Shai Ben-David. /Understanding Machine Learning: From Theory to
+Algorithms/. Cambridge University Press, 2014.
+-- Aston Zhang, Zachary C. Lipton, Mu Li, and Alexander J. Smola. /Dive into Deep Learning/. [https://d2l.ai/ https://d2l.ai] 
+
+#== Topics
+
+#- Introduction
+#-- Applications in ML [./teaching/OPTML/leture_1_introduction.pptx \[slides\]]\n
+#-- Convexity and complexity [./teaching/OPTML/Lec2_Convexity_and_Complexity.pdf \[notes\]]\n
+
+#- First-order methods I: basic concepts
+#-- Gradient method [./teaching/OPTML/Lec3_Gradient_Method.pdf \[notes\]]\n
+#-- Subgradient method [./teaching/OPTML/Lec4_Subgradient_Method.pdf \[notes\]]\n
+#-- Mirror descent [./teaching/OPTML/Lec5_Mirror_Descent.pdf \[notes\]]\n
