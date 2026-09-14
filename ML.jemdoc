@@ -30,5 +30,5 @@ Algorithms/. Cambridge University Press, 2014.
 
 - Introduction [./teaching/ML/leture_1.pptx \[slides\]]\n
 - Linear Regression [./teaching/ML/Lec2_linear_regression.pdf \[notes\]]\n
-- Linear Regularization [./teaching/ML/Lec3_regularization.pdf \[notes\]]\n
+- Regularization [./teaching/ML/Lec3_regularization.pdf \[notes\]]\n
 #- Classification [./teaching/ML/Lec2_linear_regression.pdf \[notes\]]\n
