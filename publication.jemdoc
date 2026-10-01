@@ -49,6 +49,10 @@
 -- *Physica Scripta*, 91(1):015201, 2015
 
 == Conference Papers
+- Log-Averaged Mirror Prox for Fast, Large-Scale Optimal Transport in Linear Space
+ [https://arxiv.org/pdf/2511.11359.pdf \[pdf\]] \n
+-- Matthew X. Burns and Jiaming Liang, arXiv:2511.11359, 2026
+-- *2026 Neural Information Processing Systems (NeurIPS)*
 - Variance Reduction and Low Sample Complexity in Stochastic Optimization via Proximal Point Method [https://openreview.net/pdf?id=Q7q64UtRGR \[pdf\]] \n
 -- Jiaming Liang
 -- *2026 Algorithmic Learning Theory (ALT)*
@@ -79,9 +83,6 @@
 
 == Preprints
 
-- Log-Averaged Mirror Prox for Fast, Large-Scale Optimal Transport in Linear Space
- [https://arxiv.org/pdf/2511.11359.pdf \[pdf\]] \n
--- Matthew X. Burns and Jiaming Liang, arXiv:2511.11359, 2026
 - Accuracy Certificates for Convex Optimization at Accelerated Rates via Primal-Dual Averaging
  [https://arxiv.org/pdf/2604.18321.pdf \[pdf\]] \n
 -- Matthew X. Burns and Jiaming Liang, arXiv:2604.18321, 2026
