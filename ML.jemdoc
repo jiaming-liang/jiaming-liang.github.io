@@ -33,3 +33,5 @@ Algorithms/. Cambridge University Press, 2014.
 - Regularization [./teaching/ML/Lec3_regularization.pdf \[notes\]]\n
 - Classification [./teaching/ML/Lec4_classification.pdf \[notes\]]\n
 - Optimization [./teaching/ML/Lec5_optimization.pdf \[notes\]]\n
+- Generalization [./teaching/ML/Lec6_generalization.pdf \[notes\]]\n
+- Support Vector Machine [./teaching/ML/Lec7_SVM.pdf \[notes\]]\n
