@@ -83,6 +83,8 @@
 
 == Preprints
 
+- Anchored Stein Variational Gradient Descent Algorithm for Non-smooth Sampling [https://arxiv.org/pdf/2610.36018.pdf \[pdf\]] \n
+-- Thanh Dang, Matthew X. Burns, and Jiaming Liang, arXiv:2610.36018, 2026
 - Distributional Lifting for Discrete Optimization [https://arxiv.org/pdf/2610.26521.pdf \[pdf\]] \n
 -- Ningji Wei and Jiaming Liang, arXiv:2610.26521, 2026
 - Accuracy Certificates for Convex Optimization at Accelerated Rates via Primal-Dual Averaging
