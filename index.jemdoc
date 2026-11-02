@@ -53,6 +53,7 @@ His primary research goal is to design, analyze and implement fast algorithms fo
 - Sampling Algorithms
 #- Foundation of Data Science
 == News
+- A new paper [https://arxiv.org/abs/2610.41251 "Stochastic Mirror Descent under Dependent Observations"].
 - A new paper [https://arxiv.org/abs/2610.36018 "Anchored Stein Variational Gradient Descent Algorithm for Non-smooth Sampling"].
 - A new paper [https://arxiv.org/abs/2610.26521 "Distributional Lifting for Discrete Optimization"].
 - The paper [https://arxiv.org/abs/2511.11359 "Log-Averaged Mirror Prox for Fast, Large-Scale Optimal Transport in Linear Space"] has been accepted by NeurIPS 2026.
